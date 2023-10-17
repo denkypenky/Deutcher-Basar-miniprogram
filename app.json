@@ -1,0 +1,40 @@
+{
+  "pages":[
+    "pages/landing/landing",
+    "pages/Gallery/gallery",
+    "pages/home/index",
+    "pages/Blog/blog",
+    "pages/Contact/contact",
+    "pages/Charities/charities",
+    "pages/Sponsors/sponsors",
+    "pages/Team/team",
+    "pages/volunteer/volunteer"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#0B3731",
+    "navigationBarTitleText": "Deutscher Basar",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "custom": true,
+    "color": "white",
+    "selectedColor": "#FDC01C",
+    "backgroundColor": "#0B3731",
+    "list": [{
+      "pagePath": "pages/Gallery/gallery",
+      "text": "Gallery"
+    }, {
+      "pagePath": "pages/home/index",
+      "text": "Home"
+      }, {
+        "pagePath": "pages/Blog/blog",
+        "text": "Blog"
+        }, {
+          "pagePath": "pages/Contact/contact",
+          "text": "Contact"
+    }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
