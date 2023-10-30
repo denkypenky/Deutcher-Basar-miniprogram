@@ -1,7 +1,8 @@
 {
   "projectname": "miniprogram-4",
   "setting": {
-    "compileHotReLoad": true
+    "compileHotReLoad": true,
+    "urlCheck": false
   },
   "condition": {
     "miniprogram": {

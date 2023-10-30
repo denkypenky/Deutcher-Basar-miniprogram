@@ -1,5 +1,5 @@
 <!--pages/landing/landing.wxml-->
- <image class="userinfo-avatar" src="{{profileImg}}" mode="cover"></image>
+ <image class="background" src="{{profileImg}}" mode="cover"></image>
  <view class="container1">
   <image src="/images/landing logo.png" class="landing-img"></image>
   <text class="h1">Deutscher Charity-Weihnachtsbasar </text>
