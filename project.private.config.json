@@ -19,6 +19,13 @@
           "query": "",
           "launchMode": "default",
           "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/Contact/contact",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
         }
       ]
     }

@@ -5,7 +5,7 @@ Page({
    * Page initial data
    */
   data: {
-
+    profileImg: '/images/tree-left.png'
   },
 
   /**

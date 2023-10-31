@@ -17,21 +17,28 @@
     "navigationBarTextStyle":"white"
   },
   "tabBar": {
-    "custom": true,
-    "color": "white",
+    "color": "#FFFFFF",
     "selectedColor": "#FDC01C",
     "backgroundColor": "#0B3731",
     "list": [{
-      "pagePath": "pages/Gallery/gallery",
-      "text": "Gallery"
-    }, {
       "pagePath": "pages/home/index",
+      "selectedIconPath": "images/home-yellow.png",
+      "iconPath": "images/home.png",
       "text": "Home"
+    }, {
+      "pagePath": "pages/Gallery/gallery",
+      "selectedIconPath": "images/gallery-yellow.png",
+      "iconPath": "images/gallery.png",
+      "text": "Gallery"
       }, {
         "pagePath": "pages/Blog/blog",
+        "selectedIconPath": "images/blog-yellow.png",
+        "iconPath": "images/blog.png",
         "text": "Blog"
         }, {
           "pagePath": "pages/Contact/contact",
+          "selectedIconPath": "images/contact-yellow.png",
+          "iconPath": "images/contact.png",
           "text": "Contact"
     }]
   },

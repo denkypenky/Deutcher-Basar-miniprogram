@@ -14,31 +14,17 @@
   background-color: #0b3731ec;
  
 }
-.userinfo-avatar {
-   background-size: cover;
+.tree {
+  background-size: cover;
   background-position: center;
-  height: 1500rpx;
+  height: 1435rpx;
   width: 760rpx;
-}
-.h1 {
-  color: #FAF6EB;
-  text-align: center;
-  font-family: Marcellus;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  margin-top: 80rpx;
 }
 
 .small-text {
   color: #FAF6EB;
   text-align: center;
-  font-family: Poppins;
   font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
   text-transform: uppercase;
 }
 
@@ -51,4 +37,6 @@
   flex-shrink: 0;
   margin-bottom: 0;
 }
-
+.btn-margin {
+  margin-top: -150rpx;
+}
