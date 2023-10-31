@@ -1,1 +1,35 @@
 /* pages/Contact/contact.wxss */
+.container1 {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+  background-color: #0b3731ec;
+}
+.first-text {
+  padding-bottom: 440rpx;
+}
+.big-text {
+  text-align: center;
+  font-size: 38rpx;
+  text-transform: uppercase;
+  padding-bottom: 190rpx;
+}
+.email{
+  color: #FDC01C;
+  font-size: 28rpx;
+}
+.tree {
+  background-size: cover;
+  background-position: center;
+  height: 1280rpx;
+  width: auto;
+  margin-left: -350rpx;
+}

@@ -1,11 +1,21 @@
+<<<<<<< HEAD
 <!--pages/landing/landing.wxml-->
  <image class="background" src="{{profileImg}}" mode="cover"></image>
+=======
+<image class="tree" src="{{profileImg}}" mode="aspectFill"></image>
+>>>>>>> b17b5b3dc1d014cada937dcbac8c2e49586953dd
  <view class="container1">
   <image src="/images/landing logo.png" class="landing-img"></image>
-  <text class="h1">Deutscher Charity-Weihnachtsbasar </text>
-  <text class="small-text">December 2nd, 2023 
-  on the premises off the German Embassy</text>
+  <text class="small-text">Samstag 02.12.2023
+                          ⏱ 10:00-14:00 & 15:00-19:00
+                          📍 Deutsche Botschaft Peking
+                          17 Dongzhimen Outer St, Chaoyang
+  </text>
   <navigator open-type="switchTab" url="/pages/home/index">
-     <button class="btn">Enter</button>
+     <button class="btn">Tickets</button>
+  </navigator>
+  <navigator open-type="switchTab" url="/pages/home/index">
+     <button class="btn-margin btn">About</button>
   </navigator>
 </view>
+
