@@ -14,45 +14,18 @@
   background-color: #0b3731ec;
  
 }
-<<<<<<< HEAD
-.background {
-  background-size: cover;
-  background-position: center;
-  height: 1430rpx;
-  width: 760rpx;
-}
-.h1 {
-  color: #FAF6EB;
-  text-align: center;
-  font-size: 48rpx;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  margin-top: 80rpx;
-}
-=======
 .tree {
   background-size: cover;
   background-position: center;
   height: 1435rpx;
   width: 760rpx;
 }
->>>>>>> b17b5b3dc1d014cada937dcbac8c2e49586953dd
-
 .small-text {
   color: #FAF6EB;
   text-align: center;
-<<<<<<< HEAD
-  font-size: 36rpx;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-=======
   font-size: 18px;
->>>>>>> b17b5b3dc1d014cada937dcbac8c2e49586953dd
   text-transform: uppercase;
 }
-
 .btn {
   margin-bottom: 10rpx;
 }

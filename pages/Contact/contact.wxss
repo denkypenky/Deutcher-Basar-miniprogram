@@ -14,7 +14,8 @@
   background-color: #0b3731ec;
 }
 .first-text {
-  padding-bottom: 440rpx;
+  padding-bottom: 200rpx;
+  margin-top: 140rpx;
 }
 .big-text {
   text-align: center;

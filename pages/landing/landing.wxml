@@ -1,9 +1,4 @@
-<<<<<<< HEAD
-<!--pages/landing/landing.wxml-->
- <image class="background" src="{{profileImg}}" mode="cover"></image>
-=======
 <image class="tree" src="{{profileImg}}" mode="aspectFill"></image>
->>>>>>> b17b5b3dc1d014cada937dcbac8c2e49586953dd
  <view class="container1">
   <image src="/images/landing logo.png" class="landing-img"></image>
   <text class="small-text">Samstag 02.12.2023
