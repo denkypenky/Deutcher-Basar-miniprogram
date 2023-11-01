@@ -20,14 +20,12 @@
   height: 1435rpx;
   width: 760rpx;
 }
-
 .small-text {
   color: #FAF6EB;
   text-align: center;
   font-size: 18px;
   text-transform: uppercase;
 }
-
 .btn {
   margin-bottom: 10rpx;
 }

@@ -12,7 +12,7 @@
 
 .btn {
   border-radius: 30px;
-  border: 1px solid #FDC01C;
+  border: 2rpx solid #FDC01C;
   background: rgba(255, 255, 255, 0.041);
   color: #FDC01C;
   font-size: 50rpx;
