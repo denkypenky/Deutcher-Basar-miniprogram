@@ -1,2 +1,5 @@
 <!--pages/Sponsors/sponsors.wxml-->
-<text>pages/Sponsors/sponsors.wxml</text>
+<view class="container">
+  <text>Our Sponsors</text>
+  <text>The German Embassy, ​​the AHK, as well as many other companies took an active part in the German Charity Christmas Market. Thanks to your support we achieve...</text>
+</view>

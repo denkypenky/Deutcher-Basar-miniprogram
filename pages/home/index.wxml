@@ -1,25 +1,26 @@
 <!--pages/home/index.wxml-->
+<CustomNav />
 <view class="container">
   <block>
   <view class="buttons-flex">
-    <navigator open-type="switchTab" url="/pages/Charities/charities">
+    <navigator open-type="redirect" url="/pages/Charities/charities">
       <button class="btn">Charities</button>
     </navigator>
-    <navigator open-type="switchTab" url="/pages/Sponsors/sponsors">
+    <navigator open-type="redirect" url="/pages/Sponsors/sponsors">
       <button class="btn">Sponsors</button>
     </navigator>
-    <navigator open-type="switchTab" url="/pages/Team/team">
+    <navigator open-type="redirect" url="/pages/Team/team">
       <button class="btn">Team</button>
     </navigator>
-    <navigator open-type="switchTab" url="/pages/Team/team">
+    <navigator open-type="redirect" url="/pages/Angels/angels">
       <button class="btn">Angels</button>
     </navigator>
   </view>
   </block>
-  <navigator open-type="switchTab" url="/pages/home/index">
+  <navigator open-type="redirect" url="/pages/volunteer/volunteer">
      <button class="volunteer-btn">Volunteer for help?</button>
   </navigator>
-  <text class="h1">About us</text>
+  <text class="h1 line-surround-yellow">About us</text>
   <text class="content">
     For more than 20 years, the German Charity Christmas Bazaar has traditionally taken place in the pre-Christmas period on the grounds of the German Embassy in Beijing. There, people from a wide variety of nations and cultures have the opportunity to get in the mood for Christmas with German treats and the purchase of handmade gifts.
 

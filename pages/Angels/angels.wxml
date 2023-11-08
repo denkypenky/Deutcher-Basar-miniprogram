@@ -1,0 +1,67 @@
+<!--pages/Angels/angels.wxml-->
+<CustomNav />
+<image class="tree" src="{{profileImg}}" mode="heightFix"></image>
+<view class="container1">
+  <view class="top-text">
+    <text class="title line-surround-white">The Christmas Angels</text>
+    <view class="content">
+     <text>
+        The Christmas Angels are busy almost the whole year for the good cause and conjure up a wealth of magical Christmas decorations, beautiful Advent wreaths and great Advent calendars. There are high-quality, individual handicrafts, e.g. Advent calendar bags to fill yourself in modern and classic color combinations.
+      </text>
+    </view>
+  </view>
+  <view class="white-part">
+  <view  class="text-in-white">  
+   <text class="text-in-white h1 line-surround-green ">New Collection</text>
+      <text class="text-in-white"> 
+        Attention: all of our pieces are unique and only available once. If you are interested, you can purchase your desired items before the bazaar - it's worth being quick!
+      </text>
+  </view>
+  <navigator open-type="redirect" url="/pages/volunteer/volunteer">
+     <button class="deco-btn">Reserve Decoration</button>
+  </navigator>
+    <view class="page-section swiper">
+      <view class="deco-text">
+        <text class="text-in-white">Advent Calendar</text> 
+      </view>
+      <swiper
+        indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" circular="{{circular}}" vertical="{{vertical}}"
+        interval="{{interval}}" duration="{{duration}}" previous-margin="{{previousMargin}}px" next-margin="{{nextMargin}}px">
+        <block wx:for="{{calendarList}}" wx:key="index" class="swiper-padding">
+          <swiper-item>
+            <image src="{{item.url}}" mode="aspectFit"></image>
+          </swiper-item>
+        </block>
+      </swiper>
+      <view class="deco-sector">
+      <view class="deco-text">
+        <text class="text-in-white">Advent Wreaths</text> 
+      </view>
+        <swiper
+          indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" circular="{{circular}}" vertical="{{vertical}}"
+          interval="{{interval}}" duration="{{duration}}" previous-margin="{{previousMargin}}px" next-margin="{{nextMargin}}px">
+          <block wx:for="{{wreathsList}}" wx:key="index" class="swiper-padding">
+            <swiper-item>
+              <image src="{{item.url}}" mode="aspectFit"></image>
+            </swiper-item>
+          </block>
+        </swiper>
+      </view>
+      <view class="deco-sector">
+        <view class="deco-text">
+        <text class="text-in-white">Other Christmas Drecorations</text> 
+      </view>
+            <swiper
+              indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" circular="{{circular}}" vertical="{{vertical}}"
+              interval="{{interval}}" duration="{{duration}}" previous-margin="{{previousMargin}}px" next-margin="{{nextMargin}}px">
+              <block wx:for="{{othersList}}" wx:key="index" class="swiper-padding">
+                <swiper-item>
+                  <image src="{{item.url}}" mode="aspectFit"></image>
+                </swiper-item>
+              </block>
+            </swiper>
+      </view>
+      
+    </view> 
+  </view>
+</view>

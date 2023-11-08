@@ -12,7 +12,12 @@ Page({
    * Lifecycle function--Called when page load
    */
   onLoad(options) {
-
+    const page = this
+    if (typeof this.getTabBar === 'function' && this.getTabBar()) {
+      this.getTabBar().setData({
+        selected: 0
+      })
+    }
   },
 
   /**
@@ -60,7 +65,15 @@ Page({
   /**
    * Called when user click on the top right corner to share
    */
-  onShareAppMessage() {
-
+  onShareAppMessage(e) {
+    return {
+      title: "Deutscher Charity Weihnachtbasar",
+      path: "/pages/landing/landing.wxml"
+    }
+  },
+  onShareTimeline() {
+    return {
+      title: "Deutscher Charity Weihnachtbasar",
+    }
   }
 })

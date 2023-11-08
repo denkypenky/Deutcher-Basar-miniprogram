@@ -8,12 +8,18 @@
     "pages/Charities/charities",
     "pages/Sponsors/sponsors",
     "pages/Team/team",
-    "pages/volunteer/volunteer"
+    "pages/volunteer/volunteer",
+    "pages/Angels/angels",
+    "pages/tickets/tickets",
+    "components/custom-nav/custom-nav"
+    
+
   ],
   "window":{
+    "navigationStyle": "custom",
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#0B3731",
-    "navigationBarTitleText": "Deutscher Basar",
+    "navigationBarTitleText": "Deutscher Charity Weihnachtbasar",
     "navigationBarTextStyle":"white"
   },
   "tabBar": {
@@ -21,20 +27,26 @@
     "selectedColor": "#FDC01C",
     "backgroundColor": "#0B3731",
     "list": [{
-      "pagePath": "pages/home/index",
-      "selectedIconPath": "images/home-yellow.png",
-      "iconPath": "images/home.png",
-      "text": "Home"
-    }, {
       "pagePath": "pages/Gallery/gallery",
       "selectedIconPath": "images/gallery-yellow.png",
       "iconPath": "images/gallery.png",
       "text": "Gallery"
+    }, {
+      "pagePath": "pages/Blog/blog",
+      "selectedIconPath": "images/blog-yellow.png",
+      "iconPath": "images/blog.png",
+      "text": "Blog"
       }, {
-        "pagePath": "pages/Blog/blog",
-        "selectedIconPath": "images/blog-yellow.png",
-        "iconPath": "images/blog.png",
-        "text": "Blog"
+       
+        "pagePath": "pages/home/index",
+        "selectedIconPath": "images/home-yellow.png",
+        "iconPath": "images/home.png",
+        "text": "Home"
+        }, {
+          "pagePath": "pages/tickets/tickets",
+          "selectedIconPath": "images/Tickets-yellow.png",
+          "iconPath": "images/tickets.jpg",
+          "text": "Tickets"
         }, {
           "pagePath": "pages/Contact/contact",
           "selectedIconPath": "images/contact-yellow.png",
@@ -43,5 +55,8 @@
     }]
   },
   "style": "v2",
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {
+    "CustomNav": "./components/custom-nav/custom-nav"
+}
 }

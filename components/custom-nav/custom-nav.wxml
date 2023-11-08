@@ -1,0 +1,11 @@
+<!--components/custom-nav/custom-nav.wxml-->
+<view class="nav-bar-bg" style="height: {{navBarHeight}}px;">
+  <view class="outer-container" wx:if="{{showBackButton}}">
+    <view class="btn-container">
+      <image src="/images/back-btn.png" mode="aspectFit" class="back-icon" bindtap="goTo" />
+    </view>
+  </view>
+  <view class="title-container app-name">
+    Deutscher Weihnachtbasar
+  </view>
+</view>

@@ -60,7 +60,15 @@ Page({
   /**
    * Called when user click on the top right corner to share
    */
-  onShareAppMessage() {
-
+  onShareAppMessage(e) {
+    return {
+      title: "Deutscher Charity Weihnachtbasar",
+      path: "/pages/landing/landing.wxml"
+    }
+  },
+  onShareTimeline() {
+    return {
+      title: "Deutscher Charity Weihnachtbasar",
+    }
   }
 })

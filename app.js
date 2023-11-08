@@ -2,10 +2,23 @@
 App({
   onLaunch() {
     console.log('Ap has launched')
+    wx.loadFontFace({
+      family: 'MyCustomFont',
+      source: 'url("/fonts/Agbalumo-Regular.ttf")',
+      complete(response) {
+        console.log("load")
+      }
+    })
     
   },
   globalData: {
     userInfo: null,
-    language: 'en'
+    language: 'en',
+    navBarHeight: wx.getMenuButtonBoundingClientRect().height+ 9 + wx.getSystemInfoSync().statusBarHeight,
+    userInfo: null,
+    tabPages: ["pages/profile/profile","pages/favourite/favourite","pages/homepage/homepage"],
+    calorieGrace: 1.1,
+    popUp:false,
+    firstLoad: true,
   }
 })

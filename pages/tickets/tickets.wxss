@@ -1,0 +1,14 @@
+/* pages/tickets/tickets.wxss */
+.top-text {
+  margin-top: 300rpx;
+}
+.qr-code bottom-text {
+  margin-bottom: 360rpx;
+}
+.bottom-text{
+  margin-top: 40rpx;
+}
+.yellow-text {
+  color: #FDC01C;
+  margin-bottom: 360rpx;
+}

@@ -44,5 +44,16 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
+  },
+  onShareAppMessage(e) {
+    return {
+      title: "Deutscher Charity Weihnachtbasar",
+      path: "/pages/landing/landing.wxml"
+    }
+  },
+  onShareTimeline() {
+    return {
+      title: "Deutscher Charity Weihnachtbasar"
+    }
   }
 })
