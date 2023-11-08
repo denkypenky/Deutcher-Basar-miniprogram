@@ -5,15 +5,21 @@ Page({
    * Page initial data
    */
   data: {
-    profileImg: '/images/tree-left.png'
+    profileImg: '/images/tree-left.png',
   },
 
   /**
    * Lifecycle function--Called when page load
    */
   onLoad(options) {
-
-  },
+    const page = this
+    if (typeof this.getTabBar === 'function' && this.getTabBar()) {
+      this.getTabBar().setData({
+        selected: 0
+      })
+  }
+},
+  
 
   /**
    * Lifecycle function--Called when page is initially rendered
@@ -60,7 +66,15 @@ Page({
   /**
    * Called when user click on the top right corner to share
    */
-  onShareAppMessage() {
-
+  onShareAppMessage(e) {
+    return {
+      title: "Deutscher Charity Weihnachtbasar",
+      path: "/pages/landing/landing.wxml"
+    }
+  },
+  onShareTimeline() {
+    return {
+      title: "Deutscher Charity Weihnachtbasar"
+    }
   }
 })

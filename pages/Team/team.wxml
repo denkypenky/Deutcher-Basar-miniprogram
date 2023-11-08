@@ -1,2 +1,4 @@
 <!--pages/Team/team.wxml-->
-<text>pages/Team/team.wxml</text>
+<image class="tree" src="{{profileImg}}" mode="heightFix"></image>
+<view class="container">
+</view>

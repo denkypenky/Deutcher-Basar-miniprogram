@@ -18,10 +18,8 @@
   margin-top: 140rpx;
 }
 .big-text {
-  text-align: center;
   font-size: 38rpx;
   text-transform: uppercase;
-  padding-bottom: 190rpx;
 }
 .email{
   color: #FDC01C;
@@ -30,7 +28,14 @@
 .tree {
   background-size: cover;
   background-position: center;
-  height: 1280rpx;
+  height: 1285rpx;
   width: auto;
   margin-left: -350rpx;
+  margin-top: 170rpx;
+}
+.frame {
+  border: 2rpx solid #FDC01C;
+  padding: 40rpx;
+  margin-bottom: 240rpx;
+  text-align: center;
 }

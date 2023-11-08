@@ -12,12 +12,12 @@
   padding: 200rpx 0;
   box-sizing: border-box;
   background-color: #0b3731ec;
- 
+
 }
 .tree {
   background-size: cover;
   background-position: center;
-  height: 1435rpx;
+  height: 1635rpx;
   width: 760rpx;
 }
 .small-text {

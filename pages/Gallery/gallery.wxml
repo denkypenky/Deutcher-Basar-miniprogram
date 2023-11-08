@@ -1,2 +1,4 @@
 <!--pages/Gallery/gallery.wxml-->
-<text>pages/Gallery/gallery.wxml</text>
+<image class="tree" src="{{profileImg}}" mode="heightFix"></image>
+<view class="container">
+</view>

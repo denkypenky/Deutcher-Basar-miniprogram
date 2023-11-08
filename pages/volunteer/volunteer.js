@@ -1,66 +1,49 @@
-// pages/volunteer/volunteer.js
 Page({
-
-  /**
-   * Page initial data
-   */
   data: {
-
+    background: ['demo-text-1', 'demo-text-2', 'demo-text-3'],
+    indicatorDots: true,
+    vertical: false,
+    autoplay: true,
+    circular: false,
+    interval: 2000,
+    duration: 500,
+    previousMargin: 0,
+    nextMargin: 0
   },
-
-  /**
-   * Lifecycle function--Called when page load
-   */
-  onLoad(options) {
-
+  changeProperty: function (e) {
+    var propertyName = e.currentTarget.dataset.propertyName
+    var newData = {}
+    newData[propertyName] = e.detail.value
+    this.setData(newData)
   },
-
-  /**
-   * Lifecycle function--Called when page is initially rendered
-   */
-  onReady() {
-
+  changeIndicatorDots: function (e) {
+    this.setData({
+      indicatorDots: !this.data.indicatorDots
+    })
   },
-
-  /**
-   * Lifecycle function--Called when page show
-   */
-  onShow() {
-
+  changeAutoplay: function (e) {
+    this.setData({
+      autoplay: !this.data.autoplay
+    })
   },
-
-  /**
-   * Lifecycle function--Called when page hide
-   */
-  onHide() {
-
+  intervalChange: function (e) {
+    this.setData({
+      interval: e.detail.value
+    })
   },
-
-  /**
-   * Lifecycle function--Called when page unload
-   */
-  onUnload() {
-
+  durationChange: function (e) {
+    this.setData({
+      duration: e.detail.value
+    })
+  }, onShareAppMessage(e) {
+    return {
+      title: "Deutscher Charity Weihnachtbasar",
+      path: "/pages/landing/landing.wxml"
+    }
   },
-
-  /**
-   * Page event handler function--Called when user drop down
-   */
-  onPullDownRefresh() {
-
-  },
-
-  /**
-   * Called when page reach bottom
-   */
-  onReachBottom() {
-
-  },
-
-  /**
-   * Called when user click on the top right corner to share
-   */
-  onShareAppMessage() {
-
+  onShareTimeline() {
+    return {
+      title: "Deutscher Charity Weihnachtbasar"
+    }
   }
 })

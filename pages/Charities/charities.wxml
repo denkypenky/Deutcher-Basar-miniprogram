@@ -1,2 +1,5 @@
 <!--pages/Charities/charities.wxml-->
-<text>pages/Charities/charities.wxml</text>
+<image class="tree" src="{{profileImg}}" mode="heightFix"></image>
+<view class="container">
+
+</view>

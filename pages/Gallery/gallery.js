@@ -5,14 +5,25 @@ Page({
    * Page initial data
    */
   data: {
-
+    nbFrontColor: '#ffffff',
+    nbBackgroundColor: '#0B3731',
   },
 
   /**
    * Lifecycle function--Called when page load
    */
   onLoad(options) {
-
+    this.setData({
+      nbTitle: 'Gallery',
+      nbFrontColor: '#ffffff',
+      nbBackgroundColor: '#0B3731',
+    })
+    const page = this
+    if (typeof this.getTabBar === 'function' && this.getTabBar()) {
+      this.getTabBar().setData({
+        selected: 0
+      })
+    }
   },
 
   /**
@@ -60,7 +71,15 @@ Page({
   /**
    * Called when user click on the top right corner to share
    */
-  onShareAppMessage() {
-
+  onShareAppMessage(e) {
+    return {
+      title: "Deutscher Charity Weihnachtbasar",
+      path: "/pages/landing/landing.wxml"
+    }
   },
+  onShareTimeline() {
+    return {
+      title: "Deutscher Charity Weihnachtbasar",
+    }
+  }
 })

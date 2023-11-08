@@ -1,0 +1,5 @@
+
+  @font-face {
+    font-family: 'MyCustomFont', sans-serif;
+    src: url('/fonts/Agbalumo-Regular.ttf') format('truetype'),
+  }

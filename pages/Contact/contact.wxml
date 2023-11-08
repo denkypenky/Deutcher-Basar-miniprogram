@@ -1,10 +1,15 @@
 <!--pages/Contact/contact.wxml-->
+<CustomNav />
 <image class="tree" src="{{profileImg}}" mode="heightFix"></image>
+
 <view class="container1">
   <text class="first-text">Learn more, donate, help...</text>
-  <text class="big-text">Questions, ideas, suggestions?
-  Get in touch with us!
-  By e-mail:
-    <text class="email">contact@charitybasar.cn</text>
-  </text>
+  <view class="frame">
+    <text class="big-text">Questions, ideas, suggestions?
+    Get in touch with us!
+    By e-mail:
+      <text class="email">contact@charitybasar.cn</text>
+    </text>
+  </view>
+  
 </view>

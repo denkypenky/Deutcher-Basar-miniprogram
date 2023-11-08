@@ -6,7 +6,7 @@
                           📍 Deutsche Botschaft Peking
                           17 Dongzhimen Outer St, Chaoyang
   </text>
-  <navigator open-type="switchTab" url="/pages/home/index">
+  <navigator open-type="switchTab" url="/pages/tickets/tickets">
      <button class="btn">Tickets</button>
   </navigator>
   <navigator open-type="switchTab" url="/pages/home/index">
