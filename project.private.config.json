@@ -9,6 +9,27 @@
       "list": [
         {
           "name": "",
+          "pathName": "pages/Team/team",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/Charities/charities",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/Sponsors/sponsors",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
           "pathName": "pages/tickets/tickets",
           "query": "",
           "launchMode": "default",

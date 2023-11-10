@@ -1,10 +1,12 @@
 // app.js
+//import "countdown.js";
 App({
   onLaunch() {
     console.log('Ap has launched')
     wx.loadFontFace({
       family: 'MyCustomFont',
-      source: 'url("/fonts/Agbalumo-Regular.ttf")',
+      global: true,
+      source: 'url("/fonts/Marcellus-Regular.woff")',
       complete(response) {
         console.log("load")
       }

@@ -1,6 +1,5 @@
 <!--pages/Angels/angels.wxml-->
 <CustomNav />
-<image class="tree" src="{{profileImg}}" mode="heightFix"></image>
 <view class="container1">
   <view class="top-text">
     <text class="title line-surround-white">The Christmas Angels</text>
@@ -22,7 +21,7 @@
   </navigator>
     <view class="page-section swiper">
       <view class="deco-text">
-        <text class="text-in-white">Advent Calendar</text> 
+        <text class="text-in-white line-surround-green-calendar">Advent Calendar</text> 
       </view>
       <swiper
         indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" circular="{{circular}}" vertical="{{vertical}}"
@@ -35,7 +34,7 @@
       </swiper>
       <view class="deco-sector">
       <view class="deco-text">
-        <text class="text-in-white">Advent Wreaths</text> 
+        <text class="text-in-white line-surround-green-wreath ">Advent Wreaths</text> 
       </view>
         <swiper
           indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" circular="{{circular}}" vertical="{{vertical}}"
@@ -49,7 +48,7 @@
       </view>
       <view class="deco-sector">
         <view class="deco-text">
-        <text class="text-in-white">Other Christmas Drecorations</text> 
+        <text class="text-in-white line-surround-green-other">Other Christmas Drecorations</text> 
       </view>
             <swiper
               indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" circular="{{circular}}" vertical="{{vertical}}"

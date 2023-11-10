@@ -14,6 +14,7 @@
   background-color: #0b3731ec;
   height: 100%;
   padding-bottom: 0px;
+  padding: 0 30rpx;
 }
 .tree {
   background-size: cover;
@@ -27,7 +28,7 @@
   color: #ffffff;
   font-size: 48rpx;
   margin-bottom: 0rpx;
-  margin-top: 60rpx;
+  margin-top: 160rpx;
 }
 .content {
   padding: 0 40rpx;
@@ -46,7 +47,7 @@
 }
 .white-part{
   background-color: rgb(255, 255, 255);
-  height: 1900rpx;
+  height: 3350rpx;
   width: 750rpx;
   position: relative;
   text-align: center;
@@ -65,16 +66,26 @@
   text-align: center;
 }
 .deco-btn {
-  border: 1px solid #0B3731;
+  border: 2rpx solid #0B3731;
   background: rgba(245, 244, 244, 0.055);
   color: #0B3731;
   font-size: 40rpx;
+  font-family: 'MyCustomFont', sans-serif;
+  border-top: 2rpx solid #0B3731;
+}
+.deco-btn:hover {
+  border: 2rpx solid #0B3731;
+  background: #0B3731;
+  color: #f7f7f7;
+  font-size: 40rpx;
+  font-family: 'MyCustomFont', sans-serif;
 }
 .deco-sector {
   padding-top: 60rpx;
 }
 .deco-text{
   margin-bottom: 30rpx;
+  font-size: 35rpx;
 }
 .line-surround-white {
   position: relative;
@@ -101,4 +112,53 @@
   width: 115rpx;
   margin: -12rpx 16rpx;
   transform: translateY(-32rpx);
+}
+.line-surround-green-calendar {
+  position: relative;
+  display: inline-block;
+}
+
+.line-surround-green-calendar::before, .line-surround-green-calendar::after {
+  display: inline-block;
+  content: "";
+  border-top: 2rpx solid #0B3731;
+  width: 145rpx;
+  margin: -20rpx 16rpx;
+  transform: translateY(-32rpx);
+}
+.line-surround-green-wreath {
+  position: relative;
+  display: inline-block;
+}
+
+.line-surround-green-wreath::before, .line-surround-green-wreath::after {
+  display: inline-block;
+  content: "";
+  border-top: 2rpx solid #0B3731;
+  width: 135rpx;
+  margin: -20rpx 16rpx;
+  transform: translateY(-32rpx);
+}
+.line-surround-green-other {
+  position: relative;
+  display: inline-block;
+}
+
+.line-surround-green-other::before, .line-surround-green-other::after {
+  display: inline-block;
+  content: "";
+  border-top: 2rpx solid #0B3731;
+  width: 50rpx;
+  margin: -20rpx 16rpx;
+  transform: translateY(-32rpx);
+}
+swiper{
+  width: 1000rpx;
+  height: 600rpx;
+  margin-left: -140rpx;
+}
+.wx-swiper-dot {
+  width: 11rpx !important;
+  height: 11rpx !important;
+  border-radius: 50% !important;
 }

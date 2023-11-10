@@ -1,16 +1,42 @@
 <!--pages/volunteer/volunteer.wxml-->
-<view class="container1">
-  <view class="page-body">
-    <view class="page-section page-section-spacing swiper">
-      <swiper
-        indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" circular="{{circular}}" vertical="{{vertical}}"
-        interval="{{interval}}" duration="{{duration}}" previous-margin="{{previousMargin}}px" next-margin="{{nextMargin}}px">
-        <block wx:for="{{background}}" wx:key="*this">
-          <swiper-item>
-            <view class="swiper-item {{item}}"></view>
-          </swiper-item>
-        </block>
-      </swiper>
-    </view> 
-  </view>
+<CustomNav />
+<view class="container">
+  <text class="title line-surround-white">Join us, help out</text>
+    <view class="content">
+      <text>
+        The bazaar is looking for you!
+        In 2020 and 2021, the bazaar could not take place on the embassy grounds due to the pandemic. At the same time, the German community in Beijing has shrunk, which also poses great challenges for the Bazaar’s organizing team. In order for the bazaar to take place again in 2022 and in the coming years in its traditional form, helpers are still urgently needed.
+      </text>
+    </view>
+    <view class="content2">
+      <view>
+        <text class="h2 line-surround-green">You can get involved here</text>
+      </view>
+      
+      <view class="bullet-list">
+        <text class="ul">
+          - Cake tent management
+          - Head of Santa Claus team
+          - Participation in the handicraft team
+          - Participate in baking
+          - Participate as Santa Claus
+        </text>
+      </view>
+    </view>
+      
+      <navigator open-type="redirect" url="/pages/volunteer/volunteer">
+         <button class="deco-btn">Reserve Decoration</button>
+      </navigator>
+
+    <view  class="content2">
+      <text class="ul">
+        Donations in kind and money
+        We are happy to receive donations in kind and money, which make our work easier and thus help people in need.Donations in kind can be transport services, stand construction, drinks, print services, books, handicraft materials or prizes for our raffle. We will also be happy to collect your donation from you!
+      </text>
+    </view>
+   
 </view>
+
+
+
+    
