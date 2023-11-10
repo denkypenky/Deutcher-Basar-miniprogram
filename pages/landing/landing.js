@@ -1,4 +1,5 @@
 // pages/landing/landing.js
+
 Page({
 
   /**
@@ -12,6 +13,7 @@ Page({
    * Lifecycle function--Called when page load
    */
   onLoad(options) {
+      
 
   },
 
@@ -19,6 +21,7 @@ Page({
    * Lifecycle function--Called when page is initially rendered
    */
   onReady() {
+    
 
   },
 

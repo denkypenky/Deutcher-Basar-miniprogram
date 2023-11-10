@@ -1,4 +1,76 @@
 <!--pages/Team/team.wxml-->
-<image class="tree" src="{{profileImg}}" mode="heightFix"></image>
+<CustomNav />
 <view class="container">
+  <text class="title line-surround-white">Our Team</text>
+    <view class="content">
+      <text>
+        Meet and greet our team members and volunteers
+        </text>
+    </view>
+    <view class="page-section swiper">
+      <swiper
+        indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" circular="{{circular}}" vertical="{{vertical}}"
+        interval="{{interval}}" duration="{{duration}}" previous-margin="{{previousMargin}}px" next-margin="{{nextMargin}}px">
+        <block wx:for="{{calendarList}}" wx:key="index" class="swiper-padding">
+          <swiper-item>
+            <image src="{{item.url}}" mode="aspectFit"></image>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+    <view class="page-section swiper">
+      <swiper
+        indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" circular="{{circular}}" vertical="{{vertical}}"
+        interval="{{interval}}" duration="{{duration}}" previous-margin="{{previousMargin}}px" next-margin="{{nextMargin}}px">
+        <block wx:for="{{calendarList}}" wx:key="index" class="swiper-padding">
+          <swiper-item>
+            <image src="{{item.url}}" mode="aspectFit"></image>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+    <view class="page-section swiper">
+      <swiper
+        indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" circular="{{circular}}" vertical="{{vertical}}"
+        interval="{{interval}}" duration="{{duration}}" previous-margin="{{previousMargin}}px" next-margin="{{nextMargin}}px">
+        <block wx:for="{{calendarList}}" wx:key="index" class="swiper-padding">
+          <swiper-item>
+            <image src="{{item.url}}" mode="aspectFit"></image>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+    <view class="page-section swiper">
+      <swiper
+        indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" circular="{{circular}}" vertical="{{vertical}}"
+        interval="{{interval}}" duration="{{duration}}" previous-margin="{{previousMargin}}px" next-margin="{{nextMargin}}px">
+        <block wx:for="{{calendarList}}" wx:key="index" class="swiper-padding">
+          <swiper-item>
+            <image src="{{item.url}}" mode="aspectFit"></image>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+    <view class="page-section swiper">
+      <swiper
+        indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" circular="{{circular}}" vertical="{{vertical}}"
+        interval="{{interval}}" duration="{{duration}}" previous-margin="{{previousMargin}}px" next-margin="{{nextMargin}}px">
+        <block wx:for="{{calendarList}}" wx:key="index" class="swiper-padding">
+          <swiper-item>
+            <image src="{{item.url}}" mode="aspectFit"></image>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+    <view class="page-section swiper">
+      <swiper
+        indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" circular="{{circular}}" vertical="{{vertical}}"
+        interval="{{interval}}" duration="{{duration}}" previous-margin="{{previousMargin}}px" next-margin="{{nextMargin}}px">
+        <block wx:for="{{calendarList}}" wx:key="index" class="swiper-padding">
+          <swiper-item>
+            <image src="{{item.url}}" mode="aspectFit"></image>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
 </view>

@@ -1,4 +1,4 @@
-const order = ['img1', 'img2', 'img3']
+
 // pages/Angels/angels.js
 Page({
   onShareAppMessage() {
@@ -44,6 +44,15 @@ Page({
       { url: '/images/img23.png' },
       { url: '/images/img24.png' },
       { url: '/images/img25.png' },
+      { url: '/images/img36.jpg' },
+      { url: '/images/img37.jpg' },
+      { url: '/images/img38.jpg' },
+      { url: '/images/img44.jpg' },
+      { url: '/images/img45.jpg' },
+      { url: '/images/img46.jpg' },
+      { url: '/images/img47.jpg' },
+      { url: '/images/img48.jpg' },
+      { url: '/images/img50.jpg' }
     ],
     othersList: [
       { url: '/images/img10.png' },
@@ -58,7 +67,13 @@ Page({
       { url: '/images/img31.png' },
       { url: '/images/img32.png' },
       { url: '/images/img33.png' },
-      { url: '/images/img34.png' }
+      { url: '/images/img34.png' },
+      { url: '/images/img39.jpg' },
+      { url: '/images/img40.jpg' },
+      { url: '/images/img41.jpg' },
+      { url: '/images/img42.jpg' },
+      { url: '/images/img43.jpg' },
+      { url: '/images/img49.jpg' },
     ],
   },
   changeProperty: function (e) {

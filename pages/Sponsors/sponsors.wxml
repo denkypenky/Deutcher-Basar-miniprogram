@@ -1,5 +1,66 @@
 <!--pages/Sponsors/sponsors.wxml-->
+<CustomNav />
 <view class="container">
-  <text>Our Sponsors</text>
-  <text>The German Embassy, ​​the AHK, as well as many other companies took an active part in the German Charity Christmas Market. Thanks to your support we achieve...</text>
+  <text class="h1 line-surround-white p">Our Sponsors</text>
+  <text class="p">The German Embassy, ​​the AHK, as well as many other companies took an active part in the German Charity Christmas Market. As sponsors, companies can run a hut or a stand at the bazaar with the support of their employees in order to (what's the point? what motivates them to do this?).</text>
+  <view>
+    <view class="sponsor-text-margin">
+      <text class="sponsor-text">2023 Platinum-Sponsors</text>
+    </view>
+    <view class="platin-block">
+    <view>
+     <swiper
+        indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" circular="{{circular}}" vertical="{{vertical}}"
+        interval="{{interval}}" duration="{{duration}}" previous-margin="{{previousMargin}}px" next-margin="{{nextMargin}}px">
+        <block wx:for="{{platinumList}}" wx:key="index" class="swiper-padding">
+          <swiper-item class="image1">
+            <image src="{{item.url}}" mode="widthFix" ></image>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+    <view class="sponsor-text-margin">
+      <text class="sponsor-text">2023 Gold-Sponsors</text>
+    </view>
+    </view>
+    <view class="gold-block">
+      <swiper
+        indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" circular="{{circular}}" vertical="{{vertical}}"
+        interval="{{interval}}" duration="{{duration}}" previous-margin="{{previousMargin}}px" next-margin="{{nextMargin}}px">
+        <block wx:for="{{goldList}}" wx:key="index" class="swiper-padding">
+          <swiper-item>
+            <image src="{{item.url}}" mode="aspectFit"></image>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+      <view class="sponsor-text-margin">
+      <text class="sponsor-text">2023 Silver-Sponsors</text>
+    </view>
+    <view class="silver-block">
+      <swiper
+        indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" circular="{{circular}}" vertical="{{vertical}}"
+        interval="{{interval}}" duration="{{duration}}" previous-margin="{{previousMargin}}px" next-margin="{{nextMargin}}px">
+        <block wx:for="{{silverList}}" wx:key="index" class="swiper-padding">
+          <swiper-item>
+            <image src="{{item.url}}" mode="aspectFit"></image>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+    <view class="sponsor-text-margin">
+      <text class="sponsor-text">2023 Bronze-Sponsors</text>
+    </view>
+    <view class="bronze-block">
+      <swiper
+        indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" circular="{{circular}}" vertical="{{vertical}}"
+        interval="{{interval}}" duration="{{duration}}" previous-margin="{{previousMargin}}px" next-margin="{{nextMargin}}px">
+        <block wx:for="{{bronzeList}}" wx:key="index" class="swiper-padding">
+          <swiper-item>
+            <image src="{{item.url}}" mode="aspectFit"></image>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+  </view>
 </view>
