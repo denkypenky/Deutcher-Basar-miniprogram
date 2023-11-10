@@ -9,23 +9,24 @@
   <navigator open-type="switchTab" url="/pages/home/index">
      <button class="btn-margin btn">About us</button>
   </navigator>
-  <text>tickets available in:</text>
+  <view class="tickets-text">  
+    <text>Tickets available in:</text>
+  </view>
   <view class="countdown">
   <view class="countdown-section">
-    <span class="countdown-value" id="days">00</span>
+    <span class="countdown-value" id="days">{{d}}</span>
     <span class="countdown-label">Days</span>
   </view>
-  <view class="countdown-section">
-    <span class="countdown-value" id="hours">00</span>
+  <view class="countdown-section border">
+    <span class="countdown-value" id="hours">{{h}}</span>
     <span class="countdown-label">Hours</span>
   </view>
-  <view class="countdown-section">
-    <span class="countdown-value" id="minutes">00</span>
+  <view class="countdown-section border">
+    <span class="countdown-value" id="minutes">{{i}}</span>
     <span class="countdown-label">Minutes</span>
   </view>
 </view>
   <text class="top-text">Scan to purchase tickets:</text>
   <image class="qr-code" src="/images/WechatIMG106.jpg" mode="aspectFit"/>
-  
 </view>
 
