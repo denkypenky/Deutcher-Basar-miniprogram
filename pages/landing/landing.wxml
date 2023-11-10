@@ -1,16 +1,32 @@
 <image class="tree" src="{{profileImg}}" mode="aspectFill"></image>
  <view class="container1">
   <image src="/images/landing logo.png" class="landing-img"></image>
-  <text class="small-text">Samstag 02.12.2023
+  <text class="small-text">Saturday 02.12.2023
                           ⏱ 10:00-14:00 & 15:00-19:00
-                          📍 Deutsche Botschaft Peking
+                          📍 German Embassy Beijing
                           17 Dongzhimen Outer St, Chaoyang
   </text>
-  <navigator open-type="switchTab" url="/pages/tickets/tickets">
-     <button class="btn">Tickets</button>
-  </navigator>
   <navigator open-type="switchTab" url="/pages/home/index">
-     <button class="btn-margin btn">About</button>
+     <button class="btn-margin btn">About us</button>
   </navigator>
+  <view class="tickets-text">  
+    <text>Tickets available in:</text>
+  </view>
+  <view class="countdown">
+  <view class="countdown-section">
+    <span class="countdown-value" id="days">{{d}}</span>
+    <span class="countdown-label">Days</span>
+  </view>
+  <view class="countdown-section border">
+    <span class="countdown-value" id="hours">{{h}}</span>
+    <span class="countdown-label">Hours</span>
+  </view>
+  <view class="countdown-section border">
+    <span class="countdown-value" id="minutes">{{i}}</span>
+    <span class="countdown-label">Minutes</span>
+  </view>
+</view>
+  <text class="top-text">Scan to purchase tickets:</text>
+  <image class="qr-code" src="/images/WechatIMG106.jpg" mode="aspectFit"/>
 </view>
 

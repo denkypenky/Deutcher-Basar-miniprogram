@@ -12,3 +12,6 @@
   color: #FDC01C;
   margin-bottom: 360rpx;
 }
+.container {
+  height: 100vh;
+}

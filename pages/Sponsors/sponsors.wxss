@@ -1,1 +1,64 @@
 /* pages/Sponsors/sponsors.wxss */
+.container {
+  text-align: center;
+}
+.p{
+  margin: 60rpx;
+}
+.line-surround-white {
+  position: relative;
+  display: inline-block;
+}
+
+.line-surround-white::before, .line-surround-white::after {
+  display: inline-block;
+  content: "";
+  border-top: 2rpx solid rgb(255, 255, 255);
+  width: 125rpx;
+  margin: -12rpx 16rpx;
+  transform: translateY(-32rpx);
+}
+.h1 {
+  font-size: 48rpx;
+  padding-top: 140rpx;
+}
+swiper{
+  width: 1000rpx;
+  height: 400rpx;
+}
+
+.platin-block {
+  margin-top: 120rpx;
+  background-color: rgb(253, 253, 253);
+  border: 6rpx solid black;
+}
+.gold-block {
+  margin-top: 120rpx;
+  background-color: rgb(253, 253, 253);
+  border: 6rpx solid rgb(241, 188, 42);
+}.silver-block {
+  margin-top: 120rpx;
+  background-color: rgb(253, 253, 253);
+  border: 6rpx solid rgb(109, 108, 108);
+}.bronze-block {
+  margin: 120rpx 0;
+  background-color: rgb(253, 253, 253);
+  border: 6rpx solid rgb(201, 60, 5);
+}
+.sponsor-text{
+  font-size: 40rpx;
+  text-decoration: underline;
+}
+.sponsor-text-margin {
+  margin-top: 60rpx;
+  margin-bottom: -80rpx;
+}
+.swiper-slide image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding-top: 50rpx;
+}
+.image1 {
+  margin-top: 50rpx;
+}

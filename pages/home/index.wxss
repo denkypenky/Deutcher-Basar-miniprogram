@@ -36,6 +36,7 @@
   font-size: 40rpx;
   width: auto!important;
   padding: 20rpx;
+  font-family: 'MyCustomFont', sans-serif;
 }
 .h1 {
   color: #FDC01C;

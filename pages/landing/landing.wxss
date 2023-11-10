@@ -9,15 +9,16 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  padding: 200rpx 0;
+  padding-top: 200rpx;
+  padding-bottom: 20rpx;
   box-sizing: border-box;
   background-color: #0b3731ec;
-
+  font-family: 'MyCustomFont', sans-serif;
 }
 .tree {
   background-size: cover;
   background-position: center;
-  height: 1635rpx;
+  height: 1625rpx;
   width: 760rpx;
 }
 .small-text {
@@ -25,6 +26,7 @@
   text-align: center;
   font-size: 18px;
   text-transform: uppercase;
+  margin-top: 40rpx;
 }
 .btn {
   margin-bottom: 10rpx;
@@ -36,5 +38,47 @@
   margin-bottom: 0;
 }
 .btn-margin {
-  margin-top: -150rpx;
+  margin-top: 100rpx;
+}
+.top-text {
+  margin-top: 100rpx;
+}
+.qr-code{
+  margin: 40rpx;
+}
+
+
+.countdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.countdown-section {
+  text-align: center;
+  margin-top: 10rpx;
+  color: rgb(253, 253, 253);
+  font-family: 'MyCustomFont', sans-serif;
+  display:flex;
+  flex-direction: column;
+  margin-left: 40rpx;
+}
+
+.countdown-value {
+  font-size: 32px;
+  font-weight: bold;
+  font-family: 'MyCustomFont', sans-serif;
+}
+
+.countdown-label {
+  font-size: 16px;
+  margin-top: 8px;
+}
+.tickets-text{
+  margin-top: 40rpx;
+  font-size: 40rpx;
+}
+.border {
+  border-left: 2rpx solid #fafcfb;
+  padding-left: 20rpx
 }
