@@ -1,6 +1,6 @@
 /* pages/landing/landing.wxss */
 .container1 {
-  position: fixed;
+  position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
@@ -14,11 +14,12 @@
   box-sizing: border-box;
   background-color: #0b3731ec;
   font-family: 'MyCustomFont', sans-serif;
+  height: 1925rpx;
 }
 .tree {
   background-size: cover;
   background-position: center;
-  height: 1625rpx;
+  height: 1925rpx;
   width: 760rpx;
 }
 .small-text {
@@ -32,9 +33,8 @@
   margin-bottom: 10rpx;
 }
 .landing-img {
-  width: 650rpx;
-  height: 184rpx;
-  flex-shrink: 0;
+  width: 310px;
+  height: 125px;
   margin-bottom: 0;
 }
 .btn-margin {
@@ -45,6 +45,7 @@
 }
 .qr-code{
   margin: 40rpx;
+  width: 1460rpx;
 }
 
 
@@ -75,8 +76,10 @@
   margin-top: 8px;
 }
 .tickets-text{
-  margin-top: 40rpx;
+  margin: 40rpx 50rpx;
   font-size: 40rpx;
+  text-align: center;
+  
 }
 .border {
   border-left: 2rpx solid #fafcfb;

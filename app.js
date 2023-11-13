@@ -1,5 +1,5 @@
 // app.js
-//import "countdown.js";
+
 App({
   onLaunch() {
     console.log('Ap has launched')
@@ -11,7 +11,6 @@ App({
         console.log("load")
       }
     })
-    
   },
   globalData: {
     userInfo: null,

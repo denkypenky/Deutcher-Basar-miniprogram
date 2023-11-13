@@ -7,70 +7,226 @@
         Meet and greet our team members and volunteers
         </text>
     </view>
-    <view class="page-section swiper">
-      <swiper
-        indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" circular="{{circular}}" vertical="{{vertical}}"
-        interval="{{interval}}" duration="{{duration}}" previous-margin="{{previousMargin}}px" next-margin="{{nextMargin}}px">
-        <block wx:for="{{calendarList}}" wx:key="index" class="swiper-padding">
-          <swiper-item>
-            <image src="{{item.url}}" mode="aspectFit"></image>
-          </swiper-item>
-        </block>
-      </swiper>
+    <view class="page-section"> 
+          <view class="container-img">
+            <text>Managemen†</text>
+            <image src="/images/profile/kristina Poetzl.jpeg" mode="aspectFit" class="img"></image>
+            <text>Kristina Poetzl</text>
+            <text class="email">management@charitybasar.cn</text>
+          </view>
+          <view class="container-img">
+            <text>Managemen†</text>
+            <image src="/images/profile/Emilia Jakobi.jpg" mode="aspectFit" class="img"></image>
+            <text>Emilia Jakobi</text>
+            <text class="email">management@charitybasar.cn</text>
+          </view>
+          <view class="container-img">
+            <text>Managemen†</text>
+            <text class="extra-text">(supportive)</text>
+            <image src="/images/profile/Nadine Pomes.jpg" mode="aspectFit" class="img extra-img"></image>
+            <text>Nadine Pomes</text>
+            <text class="email">management@charitybasar.cn</text>
+          </view>
     </view>
-    <view class="page-section swiper">
-      <swiper
-        indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" circular="{{circular}}" vertical="{{vertical}}"
-        interval="{{interval}}" duration="{{duration}}" previous-margin="{{previousMargin}}px" next-margin="{{nextMargin}}px">
-        <block wx:for="{{calendarList}}" wx:key="index" class="swiper-padding">
-          <swiper-item>
-            <image src="{{item.url}}" mode="aspectFit"></image>
-          </swiper-item>
-        </block>
-      </swiper>
+    <view class="page-section"> 
+          <view class="container-img">
+            <text>
+              Christmas 
+              Angel
+            </text>
+            <image src="/images/profile/Anja Bruggemann.jpg" mode="aspectFit" class="img"></image>
+            <text>Anja Brüggemann</text>
+            <text class="email">weihnachtsengel@charitybasar.cn</text>
+          </view>
+          <view class="container-img">
+            <text>
+              Christmas 
+              Angel
+            </text>
+            <image src="/images/profile/Marie Pickart.jpg" mode="aspectFit" class="img"></image>
+            <text >Marie Pickart</text>
+            <text class="email">weihnachtsengel@charitybasar.cn</text>
+          </view>
+          <view class="container-img">
+            <text class="extra-text2">Communication</text>
+            <image src="/images/profile/Maria Tilgner.jpg" mode="aspectFit" class="img"></image>
+            <text>Maria Tilgner</text>
+            <text class="email">contact@charitybasar.cn</text>
+          </view>
+          <view class="container-img">
+            <text class="extra-text2">Communication</text>
+            <image src="/images/profile/Anika Quintus.jpg" mode="aspectFit" class="img"></image>
+            <text>Anika Quintus</text>
+            <text class="email">contactt@charitybasar.cn</text>
+          </view>
     </view>
-    <view class="page-section swiper">
-      <swiper
-        indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" circular="{{circular}}" vertical="{{vertical}}"
-        interval="{{interval}}" duration="{{duration}}" previous-margin="{{previousMargin}}px" next-margin="{{nextMargin}}px">
-        <block wx:for="{{calendarList}}" wx:key="index" class="swiper-padding">
-          <swiper-item>
-            <image src="{{item.url}}" mode="aspectFit"></image>
-          </swiper-item>
-        </block>
-      </swiper>
+    <view class="page-section"> 
+          <view class="container-img">
+            <text class="">Raffles</text>
+            <image src="/images/profile/Tina Ritter.jpg" mode="aspectFit" class="img"></image>
+            <text>Tina Ritter</text>
+            <text class="email">raffles@charitybasar.cn</text>
+          </view>
+          <view class="container-img">
+            <text class="">Raffles</text>
+            <image src="/images/profile/Christian Ritter.jpg" mode="aspectFit" class="img"></image>
+            <text >Christian Ritter</text>
+            <text class="email">raffles@charitybasar.cn</text>
+          </view>
+          <view class="container-img">
+            <text class="">Coffee house</text>
+            <image src="/images/profile/Jasmin Nonnenmacher.jpg" mode="aspectFit" class="img"></image>
+            <text>Jasmin Nonnenmacher</text>
+            <text class="email">kaffeehaus@charitybasar.cn</text>
+          </view>
+          <view class="container-img">
+            <text class="">Communication</text>
+            <image src="/images/profile/Anne loffler.jpeg" mode="aspectFit" class="img"></image>
+            <text>Anne Löffler</text>
+            <text class="email">kaffeehaus@charitybasar.cn</text>
+          </view>
     </view>
-    <view class="page-section swiper">
-      <swiper
-        indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" circular="{{circular}}" vertical="{{vertical}}"
-        interval="{{interval}}" duration="{{duration}}" previous-margin="{{previousMargin}}px" next-margin="{{nextMargin}}px">
-        <block wx:for="{{calendarList}}" wx:key="index" class="swiper-padding">
-          <swiper-item>
-            <image src="{{item.url}}" mode="aspectFit"></image>
-          </swiper-item>
-        </block>
-      </swiper>
+    <view class="page-section"> 
+          <view class="container-img">
+            <text class="">Finance</text>
+            <image src="/images/profile/Birgit Suelflow.jpg" mode="aspectFit" class="img"></image>
+            <text>Birgit Suelflow</text>
+            <text class="email">finance@charitybasar.cn</text>
+          </view>
+          <view class="container-img">
+            <text class="">Finance</text>
+            <image src="/images/profile/Alexandra Katzenbach.jpg" mode="aspectFit" class="img"></image>
+            <text >Alexandra Katzenbach</text>
+            <text class="email">finance@charitybasar.cn</text>
+          </view>
+          <view class="container-img">
+            <text class="">Sponsoring</text>
+            <image src="/images/profile/Katharina Schmalz.jpg" mode="aspectFit" class="img"></image>
+            <text>Katharina Schmalz</text>
+            <text class="email">sponsoring@charitybasar.cn</text>
+          </view>
+          <view class="container-img">
+            <text class="">Sponsoring</text>
+            <image src="/images/profile/Karin Merz.jpeg" mode="aspectFit" class="img"></image>
+            <text>Katharina Schmalz</text>
+            <text class="email">sponsoring@charitybasar.cn</text>
+          </view>
     </view>
-    <view class="page-section swiper">
-      <swiper
-        indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" circular="{{circular}}" vertical="{{vertical}}"
-        interval="{{interval}}" duration="{{duration}}" previous-margin="{{previousMargin}}px" next-margin="{{nextMargin}}px">
-        <block wx:for="{{calendarList}}" wx:key="index" class="swiper-padding">
-          <swiper-item>
-            <image src="{{item.url}}" mode="aspectFit"></image>
-          </swiper-item>
-        </block>
-      </swiper>
+    <view class="page-section"> 
+          <view class="container-img">
+            <text class="">Website/IT</text>
+            <image src="/images/profile/Linni Boewer.jpg" mode="aspectFit" class="img"></image>
+            <text>Linni Boewer</text>
+          </view>
+          <view class="container-img">
+            <text class="">Website</text>
+            <image src="/images/profile/Mai Nguyen.jpg" mode="aspectFit" class="img"></image>
+            <text >Mai Nguyen</text>
+          </view>
+          <view class="container-img">
+            <text class="">Website</text>
+            <image src="/images/profile/Felix Hohne.jpg" mode="aspectFit" class="img"></image>
+            <text>Felix Höhne</text>
+          </view>
+          <view class="container-img">
+            <text class="">Graphic design</text>
+            <image src="/images/profile/Verena Sauer.jpg" mode="aspectFit" class="img"></image>
+            <text>Verena Sauer</text>
+          </view>
     </view>
-    <view class="page-section swiper">
-      <swiper
-        indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" circular="{{circular}}" vertical="{{vertical}}"
-        interval="{{interval}}" duration="{{duration}}" previous-margin="{{previousMargin}}px" next-margin="{{nextMargin}}px">
-        <block wx:for="{{calendarList}}" wx:key="index" class="swiper-padding">
-          <swiper-item>
-            <image src="{{item.url}}" mode="aspectFit"></image>
-          </swiper-item>
-        </block>
-      </swiper>
+    <view class="page-section"> 
+          <view class="container-img">
+            <text class="">Photo booth</text>
+            <image src="/images/profile/Virginia Ventura.jpeg" mode="aspectFit" class="img"></image>
+            <text>Virginia Ventura</text>
+          </view>
+          <view class="container-img">
+            <text class="">Photo booth</text>
+            <image src="/images/profile/Davide Ventura.jpg" mode="aspectFit" class="img"></image>
+            <text >Davide Ventura</text>
+          </view>
+          <view class="container-img">
+            <text class="">Cookies & Jam</text>
+            <image src="/images/profile/Sabrina Schmitt.jpg" mode="aspectFit" class="img"></image>
+            <text>Sabrina Schmitt</text>
+          </view>
+          <view class="container-img">
+            <text class="">Cookies & Jam</text>
+            <image src="/images/profile/Monika Lingmann.jpg" mode="aspectFit" class="img"></image>
+            <text>Monika Lingmann</text>
+          </view>
+    </view>
+    <view class="page-section"> 
+          <view class="container-img">
+            <text class="">Charity</text>
+            <image src="/images/profile/Cher J. Sun.jpg" mode="aspectFit" class="img"></image>
+            <text>Cher J. Sun</text>
+            <text class="email">charity@charitybasar.cn</text>
+          </view>
+          <view class="container-img">
+            <text class="">Charity</text>
+            <image src="/images/profile/Yu (Liane) Liu.jpg" mode="aspectFit" class="img"></image>
+            <text>Yu (Liane) Liu</text>
+            <text class="email">charity@charitybasar.cn</text>
+          </view>
+          <view class="container-img">
+            <text class="">Santa</text>
+            <image src="/images/profile/Thomas Spatz.jpg" mode="aspectFit" class="img"></image>
+            <text>Thomas Spatz</text>
+            <text class="email">santa@charitybasar.cn</text>
+          </view>
+          <view class="container-img">
+            <text class="">Santa</text>
+            <image src="/images/profile/Robert Pomes.jpg" mode="aspectFit" class="img"></image>
+            <text>Robert Pomes</text>
+            <text class="email">santa@charitybasar.cn</text>
+          </view>
+    </view>
+    <view class="page-section"> 
+          <view class="container-img">
+            <text class="">Sekthütte</text>
+            <image src="/images/profile/Nina Pia Conrad.jpg" mode="aspectFit" class="img"></image>
+            <text>Nina Pia Conrad</text>
+          </view>
+          <view class="container-img">
+            <text class="">Sekthütte</text>
+            <image src="/images/profile/El-mar Bengel.jpg" mode="aspectFit" class="img"></image>
+            <text >El-mar Bengel</text>
+          </view>
+          <view class="container-img">
+            <text class="">Press</text>
+            <image src="/images/profile/Cher J. Sun.jpg" mode="aspectFit" class="img"></image>
+            <text>Cher J. Sun</text>
+          </view>
+          <view class="container-img">
+            <text class="">Press</text>
+            <image src="/images/profile/Anke Redl.jpeg" mode="aspectFit" class="img"></image>
+            <text>Anke Redl</text>
+          </view>
+    </view>
+    <view class="page-section"> 
+          <view class="container-img">
+            <text class="">Facility</text>
+            <image src="/images/profile/Ralf Abendroth.jpeg" mode="aspectFit" class="img"></image>
+            <text>Ralf Abendroth</text>
+          </view>
+          <view class="container-img">
+            <text class="">Facility</text>
+            <image src="/images/profile/Desmond.jpg" mode="aspectFit" class="img"></image>
+            <text>Desmond</text>
+          </view>
+          <view class="container-img">
+            <text class="">Facility</text>
+            <image src="/images/profile/Thomas Spatz.jpg" mode="aspectFit" class="img"></image>
+            <text>Thomas Spatz</text>
+          </view>
+          <view class="container-img">
+            <text class="extra-text3">
+            Communication 
+            Church & School
+            </text>
+            <image src="/images/profile/Claudia Potthoff.jpg" mode="aspectFit" class="img extra-img"></image>
+            <text>Claudia Potthoff</text>
+          </view>
     </view>
 </view>
