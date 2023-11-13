@@ -5,19 +5,14 @@ Page({
    * Page initial data
    */
   data: {
-    nbFrontColor: '#ffffff',
-    nbBackgroundColor: '#0B3731',
+    
   },
 
   /**
    * Lifecycle function--Called when page load
    */
   onLoad(options) {
-    this.setData({
-      nbTitle: 'Team',
-      nbFrontColor: '#ffffff',
-      nbBackgroundColor: '#0B3731',
-    })
+    
   },
 
   /**
