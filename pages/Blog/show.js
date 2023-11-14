@@ -1,18 +1,29 @@
 // pages/Blog/blog.js
+const app = getApp()
 Page({
+
 
   /**
    * Page initial data
    */
   data: {
-
+    /*headLine: [
+      {tittle: "German Charity Bazaar Handover of 2022`s Donation at the German Embassy in Beijing"},
+      {date: "17.March 2023"},
+      {tittle: "Advent wreath in summer?"},
+      {date: "28.September 2022"}
+      ],*/
+    
   },
 
   /**
    * Lifecycle function--Called when page load
    */
-  onLoad(options) {
-
+  onLoad: function(options) {
+    const headLine = app.globalData.headLine[parseInt(options.index)]
+    this.setData({
+      headLine: headLine
+    })
   },
 
   /**
@@ -60,7 +71,15 @@ Page({
   /**
    * Called when user click on the top right corner to share
    */
-  onShareAppMessage() {
-
+  onShareAppMessage(e) {
+    return {
+      title: "Deutscher Charity Weihnachtbasar",
+      path: "/pages/landing/landing.wxml"
+    }
+  },
+  onShareTimeline() {
+    return {
+      title: "Deutscher Charity Weihnachtbasar"
+    }
   }
 })

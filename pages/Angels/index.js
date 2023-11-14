@@ -1,4 +1,4 @@
-// pages/Blog/blog.js
+// pages/Angels/index.js
 Page({
 
   /**

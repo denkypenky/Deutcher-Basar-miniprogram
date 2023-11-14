@@ -1,4 +1,4 @@
-// pages/Blog/blog.js
+// pages/Charities/index.js
 Page({
 
   /**

@@ -4,6 +4,8 @@
     "pages/Gallery/gallery",
     "pages/home/index",
     "pages/Blog/blog",
+    "pages/Blog/index",
+    "pages/Blog/show",
     "pages/Contact/contact",
     "pages/Charities/charities",
     "pages/Sponsors/sponsors",
@@ -32,7 +34,7 @@
       "iconPath": "images/gallery.png",
       "text": "Gallery"
     }, {
-      "pagePath": "pages/Blog/blog",
+      "pagePath": "pages/Blog/index",
       "selectedIconPath": "images/blog-yellow.png",
       "iconPath": "images/blog.png",
       "text": "Blog"

@@ -13,7 +13,7 @@ Page({
     indicatorDots: true,
     indicatorActiveColor: "#FDC01C",
     vertical: false,
-    autoplay: true,
+    autoplay: false,
     interval: 3000,
     duration: 500,
     previousMargin: 0,

@@ -1,0 +1,20 @@
+<!--pages/Blog/blog.wxml-->
+<CustomNav />
+<view class="container">
+  <text class="title line-surround-white">News and stories</text>
+    <view class="content">
+      <text>
+        Information about the Christmas bazaar and the supported organizations
+      </text>
+    </view>
+  <view class="blog"  wx:for="{{headLine}}" wx:key="item"  bindtap="goToStory" data-index="{{index}}"
+   style="background-image: linear-gradient(rgba(0, 0, 0, 0.712), rgba(0, 0, 0, 0.562)), url({{item.url}}) ;background-size: cover;">
+    <text class="headline">{{item.title}}</text>
+    <view class="bottom-text">
+      <text class="date">{{item.date}}</text>
+    
+        <button class="btn">read more</button>
+      
+    </view>
+  </view>
+</view>
