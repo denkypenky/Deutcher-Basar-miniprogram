@@ -1,0 +1,10 @@
+<!--pages/Blog/show.wxml-->
+<CustomNav />
+<view class="container">
+  <text class="title">{{headLine.title}}</text>
+    <view class="content">
+      <text>
+        {{headLine.body}}
+      </text>
+    </view>
+</view>

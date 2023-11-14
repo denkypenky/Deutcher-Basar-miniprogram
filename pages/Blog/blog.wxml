@@ -1,4 +1,2 @@
 <!--pages/Blog/blog.wxml-->
-<image class="tree" src="{{profileImg}}" mode="heightFix"></image>
-<view class="container">
-</view>
+<text>pages/Blog/blog.wxml</text>

@@ -26,7 +26,7 @@
     <span class="countdown-label">Hours</span>
   </view>
   <view class="countdown-section border">
-    <span class="countdown-value" id="minutes">{{s}}</span>
+    <span class="countdown-value" id="minutes">{{i}}</span>
     <span class="countdown-label">Minutes</span>
   </view>
 </view>

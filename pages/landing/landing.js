@@ -1,7 +1,7 @@
 Page({
   data: {
     profileImg: '/images/tree.jpg',
-    expire_second: 555181000,
+    expire_second: 23444000,
       _timer: null,
       _syncFlag: false,
       d: '00',
@@ -32,6 +32,9 @@ if (this.data._timer) {
       },
 
       countDown() {
+          let countDownDate = new Date("2023/11/17 00:00:00").getTime();
+          let now = new Date().getTime();
+          let expire_second2 = countDownDate - now;
           let seconds = this.data._seconds;
           let [day, hour, minute, second] = [0, 0, 0, 0]
           if (seconds > 0) {

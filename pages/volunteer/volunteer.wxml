@@ -24,8 +24,8 @@
       </view>
     </view>
       
-      <navigator open-type="redirect" url="/pages/volunteer/volunteer">
-         <button class="deco-btn">Reserve Decoration</button>
+      <navigator open-type="redirect" url="/pages/Contact/contact">
+         <button class="deco-btn">Join us</button>
       </navigator>
 
     <view  class="content2">

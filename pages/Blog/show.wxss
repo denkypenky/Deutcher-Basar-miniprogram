@@ -1,0 +1,18 @@
+/* pages/Blog/show.wxss */
+.title {
+  color: #ffffff;
+  font-size: 48rpx;
+  margin-bottom: 0rpx;
+  margin-top: 230rpx;
+  text-align: center;
+}
+.content {
+  padding: 40rpx 40rpx;
+  text-align: center;
+}
+
+.container {
+  padding: 40rpx;
+  height: 135vh;
+  padding-bottom: 40rpx;
+}
