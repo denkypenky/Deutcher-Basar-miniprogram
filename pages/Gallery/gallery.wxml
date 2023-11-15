@@ -1,4 +1,5 @@
 <!--pages/Gallery/gallery.wxml-->
+<CustomNav2 />
 <image class="tree" src="{{profileImg}}" mode="heightFix"></image>
 <view class="container">
 </view>

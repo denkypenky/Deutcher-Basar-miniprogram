@@ -30,15 +30,13 @@
   margin-top: 40rpx;
 }
 .btn {
-  margin-bottom: 10rpx;
+  margin-top: -10rpx;
+  margin-bottom: 70rpx;
 }
 .landing-img {
   width: 310px;
   height: 125px;
   margin-bottom: 0;
-}
-.btn-margin {
-  margin-top: 100rpx;
 }
 .top-text {
   margin-top: 100rpx;

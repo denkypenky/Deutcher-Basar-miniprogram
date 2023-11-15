@@ -1,22 +1,22 @@
 // pages/Charities/charities.js
+const app = getApp()
 Page({
 
   /**
    * Page initial data
    */
   data: {
-    nbFrontColor: '#ffffff',
-    nbBackgroundColor: '#0B3731',
+
   },
 
   /**
    * Lifecycle function--Called when page load
    */
   onLoad(options) {
+    const charities = app.globalData.charities
+    console.log(charities)
     this.setData({
-      nbTitle: 'Charities',
-      nbFrontColor: '#ffffff',
-      nbBackgroundColor: '#0B3731',
+      charities: charities
     })
   },
 
@@ -75,5 +75,16 @@ Page({
     return {
       title: "Deutscher Charity Weihnachtbasar"
     }
+  },
+  goToStory(e) {
+    console.log("goToStory event", e)
+    console.log("index", e.currentTarget.dataset.index)
+    
+    // Below to debug and see if we are getting the correct story
+    /*const story = this.data.headLine[e.currentTarget.dataset.index]
+     console.log("story:", story)*/
+    wx.navigateTo({
+      url: `/pages/Charities/show?index=${e.currentTarget.dataset.index}`,
+    }) 
   }
 })

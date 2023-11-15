@@ -1,5 +1,5 @@
 <!--pages/Blog/blog.wxml-->
-<CustomNav />
+<CustomNav2 />
 <view class="container">
   <text class="title line-surround-white">News and stories</text>
     <view class="content">

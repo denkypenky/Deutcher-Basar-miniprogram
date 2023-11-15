@@ -1,0 +1,31 @@
+/* pages/Charities/show.wxss */
+/* pages/Blog/show.wxss */
+.title {
+  color: #ffffff;
+  font-size: 48rpx;
+  margin-bottom: 0rpx;
+  margin-top: 230rpx;
+  text-align: center;
+}
+.content {
+  padding: 40rpx 40rpx;
+  text-align: center;
+}
+
+.container {
+  padding: 40rpx;
+  height: 130vh;
+  padding-bottom: 0rpx;
+}
+.btn{
+  margin-top: 40rpx;
+  font-size: 25rpx;
+  border: 4rpx solid #fbfcfc;
+  color: #f3f7f6;
+  border-radius: 0;
+}
+.btn:hover{
+  border: 4rpx solid #fbfcfc;
+  color: #0B3731;
+  background-color: #f3f7f6;
+}

@@ -1,5 +1,5 @@
 <!--pages/tickets/tickets.wxml-->
-<CustomNav />
+<CustomNav2 />
 <view class="container">
   <text class="top-text">Scan to purchase tickets</text>
   <image class="qr-code" src="/images/QR.jpg" mode="aspectFit"/>

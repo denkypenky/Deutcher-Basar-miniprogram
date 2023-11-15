@@ -40,17 +40,14 @@
 .page-section:last-child{
   margin-bottom: 0;
 }
-.swiper-slide img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
+
 .white-part{
   background-color: rgb(255, 255, 255);
-  height: 3350rpx;
+  height: auto;
   width: 750rpx;
   position: relative;
   text-align: center;
+  padding-bottom: 60rpx;
 }
 .text-in-white {
   color: #0B3731;
@@ -152,13 +149,11 @@
   margin: -20rpx 16rpx;
   transform: translateY(-32rpx);
 }
-swiper{
-  width: 1000rpx;
-  height: 600rpx;
-  margin-left: -140rpx;
+image {
+  padding-top: 30rpx;
 }
-.wx-swiper-dot {
+/*.wx-swiper-dot {
   width: 11rpx !important;
   height: 11rpx !important;
   border-radius: 50% !important;
-}
+} */

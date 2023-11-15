@@ -38,4 +38,5 @@
 .back-icon {
   height: 40rpx;
   width: 40rpx;
+  padding-top: 0rpx!important;
 }
