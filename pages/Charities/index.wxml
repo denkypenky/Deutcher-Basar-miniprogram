@@ -1,2 +1,31 @@
-<!--pages/Charities/index.wxml-->
-<text>pages/Charities/index.wxml</text>
+<!--pages/Charities/charities.wxml-->
+<CustomNav />
+<view class="container">
+  <text class="h1 line-surround-white p">Our Charities</text>
+  <text class="p">Every year, we carefully select among the applicants in and around Beijing and give our donation to organizations that help children and families in need. Help us to help them! You can find more details about our charities below.  </text>
+  <video src="/images/video/2023BETHEL-Video.mp4" autoplay="true"/>
+  <navigator open-type="redirect" url="/pages/volunteer/volunteer">
+     <button class="deco-btn">Donate</button>
+  </navigator>
+  <navigator open-type="redirect" url="/pages/volunteer/volunteer">
+     <button class="deco-btn">Apply for donation</button>
+  </navigator>
+  <block>
+    <view class="white-part">
+      <view  class="text-in-white">  
+        <text class="text-in-white h2 line-surround-green ">Overview</text>
+      </view>
+      <block>
+        <view class="card-flex">
+          <view class="card" wx:for="{{charities}}" wx:key="item"  bindtap="goToStory" data-index="{{index}}">
+            <image src="{{item.url}}" mode="widthFix"/>
+            <text class="charity-text">
+              {{item.name}}:
+              {{item.title}}
+            </text>
+          </view>
+        </view>
+      </block>
+    </view>
+  </block>
+</view>

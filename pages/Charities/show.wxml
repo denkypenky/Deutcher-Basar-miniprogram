@@ -1,0 +1,15 @@
+<!--pages/Charities/show.wxml-->
+<CustomNav />
+<view class="container">
+  <text class="title">{{charities.name}}</text>
+  <text class="content">{{charities.title}}</text>
+    <view class="content">
+    <video src="{{charities.video}}"/>
+      <text class="content">
+        {{charities.body}}
+      </text>
+      <navigator url="{{charities.web}}">
+      <button class="btn">To {{charities.name}} Website</button>
+      </navigator>
+    </view>
+</view>

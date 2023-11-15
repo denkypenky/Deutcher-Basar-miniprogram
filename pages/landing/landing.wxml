@@ -6,9 +6,6 @@
                           📍 German Embassy Beijing
                           17 Dongzhimen Outer St, Chaoyang
   </text>
-  <navigator open-type="switchTab" url="/pages/home/index">
-     <button class="btn-margin btn">About us</button>
-  </navigator>
   <view class="tickets-text">  
     <text>
      Santa's little Bazaar helpers are busy preparing for the merriest seasons of all.
@@ -17,20 +14,23 @@
     </text>
   </view>
   <view class="countdown">
-  <view class="countdown-section">
-    <span class="countdown-value" id="days">{{d}}</span>
-    <span class="countdown-label">Days</span>
+    <view class="countdown-section">
+      <span class="countdown-value" id="days">{{d}}</span>
+      <span class="countdown-label">Days</span>
+    </view>
+    <view class="countdown-section border">
+      <span class="countdown-value" id="hours">{{h}}</span>
+      <span class="countdown-label">Hours</span>
+    </view>
+    <view class="countdown-section border">
+      <span class="countdown-value" id="minutes">{{i}}</span>
+      <span class="countdown-label">Minutes</span>
+    </view>
   </view>
-  <view class="countdown-section border">
-    <span class="countdown-value" id="hours">{{h}}</span>
-    <span class="countdown-label">Hours</span>
-  </view>
-  <view class="countdown-section border">
-    <span class="countdown-value" id="minutes">{{i}}</span>
-    <span class="countdown-label">Minutes</span>
-  </view>
-</view>
   <text class="top-text">to purchase your ticket.</text>
   <image class="qr-code" src="/images/QR.jpg" mode="aspectFit"/>
+  <navigator open-type="switchTab" url="/pages/home/index">
+     <button class="btn">About us</button>
+  </navigator>
 </view>
 

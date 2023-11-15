@@ -16,49 +16,37 @@
         Attention: all of our pieces are unique and only available once. If you are interested, you can purchase your desired items before the bazaar - it's worth being quick!
       </text>
   </view>
-  <navigator open-type="redirect" url="/pages/volunteer/volunteer">
+  <navigator open-type="navigate" url="/pages/volunteer/volunteer">
      <button class="deco-btn">Reserve Decoration</button>
   </navigator>
     <view class="page-section swiper">
       <view class="deco-text">
         <text class="text-in-white line-surround-green-calendar">Advent Calendar</text> 
       </view>
-      <swiper
-        indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" circular="{{circular}}" vertical="{{vertical}}"
-        interval="{{interval}}" duration="{{duration}}" previous-margin="{{previousMargin}}px" next-margin="{{nextMargin}}px">
         <block wx:for="{{calendarList}}" wx:key="index" class="swiper-padding">
-          <swiper-item>
+          <image-item>
             <image src="{{item.url}}" mode="aspectFit"></image>
-          </swiper-item>
+          </image-item>
         </block>
-      </swiper>
       <view class="deco-sector">
       <view class="deco-text">
         <text class="text-in-white line-surround-green-wreath ">Advent Wreaths</text> 
       </view>
-        <swiper
-          indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" circular="{{circular}}" vertical="{{vertical}}"
-          interval="{{interval}}" duration="{{duration}}" previous-margin="{{previousMargin}}px" next-margin="{{nextMargin}}px">
           <block wx:for="{{wreathsList}}" wx:key="index" class="swiper-padding">
-            <swiper-item>
+            <image-item>
               <image src="{{item.url}}" mode="aspectFit"></image>
-            </swiper-item>
+            </image-item>
           </block>
-        </swiper>
       </view>
       <view class="deco-sector">
         <view class="deco-text">
         <text class="text-in-white line-surround-green-other">Other Christmas Drecorations</text> 
       </view>
-            <swiper
-              indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" circular="{{circular}}" vertical="{{vertical}}"
-              interval="{{interval}}" duration="{{duration}}" previous-margin="{{previousMargin}}px" next-margin="{{nextMargin}}px">
               <block wx:for="{{othersList}}" wx:key="index" class="swiper-padding">
-                <swiper-item>
+                <image-item>
                   <image src="{{item.url}}" mode="aspectFit"></image>
-                </swiper-item>
+                </image-item>
               </block>
-            </swiper>
       </view>
       
     </view> 

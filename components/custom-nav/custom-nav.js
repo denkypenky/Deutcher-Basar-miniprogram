@@ -18,11 +18,26 @@ Component({
           navBarHeight: app.globalData.navBarHeight
         })
       }
+
     
   },
   methods:{
-    goBack: function(){
-      wx.navigateBack(1)
+    goBack: function() {
+
+      // Get the current page stack length
+      const pages = getCurrentPages();
+      const len = pages.length;
+      
+      // Check if there are pages to go back to
+      if (len > 1) {
+        wx.navigateBack({
+          delta: 1
+        });
+      } else {
+        // Handle the case when there are no previous pages
+        // For example, show a message or perform a different action
+        console.log("Cannot go back from first page");
+      }
     },
     goTo: function() {
       wx.navigateTo({

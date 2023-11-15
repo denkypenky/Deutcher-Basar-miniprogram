@@ -2,12 +2,13 @@
 <CustomNav />
 <view class="container">
   <text class="h1 line-surround-white p">Our Charities</text>
-  <text class="p">We currently support seven non-profit organizations in and around Beijing that help children and people in need. Once a year we visit each facility and make sure that the donations are used for the stated purpose. </text>
+  <text class="p">Every year, we carefully select among the applicants in and around Beijing and give our donation to organizations that help children and families in need. Help us to help them! You can find more details about our charities below.  </text>
+  <video src="/images/video/2023BETHEL-Video.mp4" autoplay="true"/>
   <navigator open-type="redirect" url="/pages/volunteer/volunteer">
      <button class="deco-btn">Donate</button>
   </navigator>
   <navigator open-type="redirect" url="/pages/volunteer/volunteer">
-     <button class="deco-btn">Request donation</button>
+     <button class="deco-btn">Apply for donation</button>
   </navigator>
   <block>
     <view class="white-part">
@@ -16,59 +17,15 @@
       </view>
       <block>
         <view class="card-flex">
-          <view class="card">
-          <image src="/images/2023Huiling_Background.png" mode="widthFix"/>
-          <text class="charity-text">
-            Beijing Huiling:
-            residential groups and workshops for mentally handicapped people
-          </text>
-          </view>
-          <view class="card">
-            <image src="/images/2023Bethel_Background.png" mode="widthFix"/>
+          <view class="card" wx:for="{{charities}}" wx:key="item"  bindtap="goToStory" data-index="{{index}}">
+            <image src="{{item.url}}" mode="widthFix"/>
             <text class="charity-text">
-              Bethel: 
-              Heim für sehbehinderte Kinder mit Ganztagsbetreuung.
-          </text>
-          </view>
-          <view class="card">
-            <image src="/images/2023Hope_Background.png" mode="widthFix"/>
-            <text class="charity-text">
-              HOPE: 
-              Therapeutisches Reiten für Menschen mit Behinderungen
-          </text>
-          </view>
-          <view class="card">
-            <image src="/images/2023LoveHope_Background.png" mode="widthFix"/>
-            <text class="charity-text">
-              Love&Hope:
-              Berufsschule für benachteiligte Jugendliche aus ethnischen Minderheiten.
-          </text>
-          </view>
-          <view class="card">
-            <image src="/images/2023Qizhi_Background-1.png" mode="widthFix"/>
-            <text class="charity-text">
-              Qizhi: 
-              Förderschule und Internat für geistig behinderte Kinder und Jugendliche
-          </text>
-          </view>
-          <view class="card">
-            <image src="/images/2023Rainbow_Background-1.png" mode="widthFix"/>
-            <text class="charity-text">
-              Rainbow Foundation:
-               Hilfe für krebskranke Kinder und ihre Angehörigen
-          </text>
-          </view>
-          <view class="card">
-            <image src="/images/2023StarsRain_Background.png" mode="widthFix"/>
-            <text class="charity-text">
-              Stars & Rain:
-               Ausbildungszentrum für Eltern und Lehrer autistischer Kinder.
-          </text>
+              {{item.name}}:
+              {{item.title}}
+            </text>
           </view>
         </view>
-       
       </block>
-      
     </view>
   </block>
 </view>

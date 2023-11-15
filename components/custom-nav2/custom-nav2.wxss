@@ -1,0 +1,41 @@
+/* components/custom-nav/custom-nav.wxss */
+.btn-container{
+  width: 70rpx;
+  height: 70rpx;
+  z-index: 10000;
+  position: absolute;
+  bottom: 20rpx;
+  left: 30rpx;
+}
+
+.app-name{
+  color: white;
+  font-size: 34rpx;
+  font-weight: 500;
+}
+
+.btn-container{
+  height: 40rpx;
+  width: 40rpx;
+}
+
+.nav-bar-bg{
+  height: 180rpx;
+  position: fixed;
+  top: 0;
+  background: #0B3731;
+  width: 100%;
+  display: block;
+  z-index: 10000;
+}
+
+.title-container{
+  position: absolute;
+  bottom: 10px;
+  margin-left: 130rpx;
+}
+.back-icon {
+  height: 40rpx;
+  width: 40rpx;
+  padding-top: 0rpx!important;
+}

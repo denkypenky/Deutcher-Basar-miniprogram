@@ -1,7 +1,7 @@
 Page({
   data: {
     profileImg: '/images/tree.jpg',
-    expire_second: 23444000,
+    expire_second: 244000,
       _timer: null,
       _syncFlag: false,
       d: '00',
@@ -16,7 +16,15 @@ if (this.data._timer) {
               this.data._syncFlag = false;
               clearInterval(this.data._timer)
           }
+          let countDownDate = new Date("2023/11/17 00:00:00").getTime();
+          let now = new Date().getTime();
+          let expire_second2 = countDownDate - now;
+          console.log(expire_second2)
+          this.setData({
+            expire_second: expire_second2
+          })
           this.changeFlag()
+          
 },
 
   onHide() {
@@ -32,9 +40,7 @@ if (this.data._timer) {
       },
 
       countDown() {
-          let countDownDate = new Date("2023/11/17 00:00:00").getTime();
-          let now = new Date().getTime();
-          let expire_second2 = countDownDate - now;
+         
           let seconds = this.data._seconds;
           let [day, hour, minute, second] = [0, 0, 0, 0]
           if (seconds > 0) {
@@ -90,6 +96,9 @@ if (this.data._timer) {
               this.startData();
               this.data._syncFlag = true;
           }
-      }
+      }, 
+  onShow(){
+    
+  }
 });
 
