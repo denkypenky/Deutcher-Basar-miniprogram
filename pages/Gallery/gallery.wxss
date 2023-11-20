@@ -1,1 +1,10 @@
 /* pages/Gallery/gallery.wxss */
+.title {
+  color: #ffffff;
+  font-size: 48rpx;
+  margin-bottom: 0rpx;
+  margin-top: 230rpx;
+}
+image {
+  padding-top: 30rpx;
+}

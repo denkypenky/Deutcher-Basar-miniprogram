@@ -9,6 +9,27 @@
       "list": [
         {
           "name": "",
+          "pathName": "pages/Gallery/gallery",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/Charities/show",
+          "query": "index=6",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/Charities/show",
+          "query": "index=6",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
           "pathName": "pages/Charities/show",
           "query": "index=0",
           "launchMode": "default",

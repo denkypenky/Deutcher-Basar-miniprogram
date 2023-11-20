@@ -1,8 +1,5 @@
 <!--pages/tickets/tickets.wxml-->
 <CustomNav2 />
 <view class="container">
-  <text class="top-text">Scan to purchase tickets</text>
-  <image class="qr-code" src="/images/QR.jpg" mode="aspectFit"/>
-  <text class="bottom-text">Or enter this site: </text>
-  <text class="yellow-text bottom-text">https://www.bagevent.com/event/8669346</text>
+  <text class="top-text">No tickets available at the moment</text>
 </view>

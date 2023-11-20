@@ -10,7 +10,7 @@ page {
   flex-direction: column;
   align-items: center;
   box-sizing: border-box;
-  background-color:#0b3731ec;
+  background-color:#0b373100;
 } 
 
 .btn {

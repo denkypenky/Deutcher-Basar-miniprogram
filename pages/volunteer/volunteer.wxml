@@ -24,7 +24,7 @@
       </view>
     </view>
       
-      <navigator open-type="redirect" url="/pages/Contact/contact">
+      <navigator open-type="switchTab" url="/pages/Contact/contact">
          <button class="deco-btn">Join us</button>
       </navigator>
 

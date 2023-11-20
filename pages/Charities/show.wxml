@@ -3,13 +3,26 @@
 <view class="container">
   <text class="title">{{charities.name}}</text>
   <text class="content">{{charities.title}}</text>
-    <view class="content">
-    <video src="{{charities.video}}"/>
+  <block wx:if="{{ !charities.video }}">
+    <view class="image-swiper">
+     <swiper
+        indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" circular="{{circular}}" vertical="{{vertical}}"
+        interval="{{interval}}" duration="{{duration}}" previous-margin="{{previousMargin}}px" next-margin="{{nextMargin}}px">
+        <block wx:for="{{charititesImage}}" wx:key="index" class="swiper-padding">
+          <swiper-item class="image1">
+            <image src="{{item.url}}" mode="aspectFit"></image>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+  </block>
+  <block wx:else>
+    <video src="{{charities.video}}" autoplay="true"></video>
+  </block>
       <text class="content">
         {{charities.body}}
       </text>
-      <navigator url="{{charities.web}}">
-      <button class="btn">To {{charities.name}} Website</button>
+      <navigator url="{{charities.web}}" open-type="navigate" hover-class="navigator-hover">
+       <button class="btn">To {{charities.name}} Website</button>
       </navigator>
-    </view>
 </view>

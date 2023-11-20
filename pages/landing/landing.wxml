@@ -1,6 +1,6 @@
 <image class="tree" src="{{profileImg}}" mode="aspectFill"></image>
  <view class="container1">
-  <image src="/images/logo-transparent.png" class="landing-img"></image>
+  <image src="http://charitybasar.cn/wp-content/uploads/2023/10/flyer-e1696562568338.png" class="landing-img"></image>
   <text class="small-text">Saturday 02.12.2023
                           ⏱ 10:00-14:00 & 15:00-19:00
                           📍 German Embassy Beijing
@@ -8,9 +8,7 @@
   </text>
   <view class="tickets-text">  
     <text>
-     Santa's little Bazaar helpers are busy preparing for the merriest seasons of all.
-
-     Please come back in:
+     Bazar will start in:
     </text>
   </view>
   <view class="countdown">
@@ -27,8 +25,7 @@
       <span class="countdown-label">Minutes</span>
     </view>
   </view>
-  <text class="top-text">to purchase your ticket.</text>
-  <image class="qr-code" src="/images/QR.jpg" mode="aspectFit"/>
+ 
   <navigator open-type="switchTab" url="/pages/home/index">
      <button class="btn">About us</button>
   </navigator>

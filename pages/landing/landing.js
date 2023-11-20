@@ -16,7 +16,7 @@ if (this.data._timer) {
               this.data._syncFlag = false;
               clearInterval(this.data._timer)
           }
-          let countDownDate = new Date("2023/11/17 00:00:00").getTime();
+          let countDownDate = new Date("2023/12/02 00:00:00").getTime();
           let now = new Date().getTime();
           let expire_second2 = countDownDate - now;
           console.log(expire_second2)
