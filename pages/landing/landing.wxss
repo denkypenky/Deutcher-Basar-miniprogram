@@ -14,12 +14,12 @@
   box-sizing: border-box;
   background-color: #0b3731ec;
   font-family: 'MyCustomFont', sans-serif;
-  height: 1925rpx;
+  height: 1615rpx;
 }
 .tree {
   background-size: cover;
   background-position: center;
-  height: 1925rpx;
+  height: 1615rpx;
   width: 760rpx;
 }
 .small-text {
@@ -31,7 +31,7 @@
 }
 .btn {
   margin-top: -10rpx;
-  margin-bottom: 70rpx;
+  margin-bottom: 190rpx;
 }
 .landing-img {
   width: 310px;
@@ -51,6 +51,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 120rpx;
 }
 
 .countdown-section {
@@ -64,14 +65,14 @@
 }
 
 .countdown-value {
-  font-size: 32px;
+  font-size: 64rpx;
   font-weight: bold;
   font-family: 'MyCustomFont', sans-serif;
 }
 
 .countdown-label {
-  font-size: 16px;
-  margin-top: 8px;
+  font-size: 32rpx;
+  margin-top: 16rpx;
 }
 .tickets-text{
   margin: 40rpx 50rpx;

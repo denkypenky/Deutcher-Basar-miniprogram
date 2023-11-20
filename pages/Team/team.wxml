@@ -10,20 +10,20 @@
     <view class="page-section"> 
           <view class="container-img">
             <text>Managemen†</text>
-            <image src="/images/profile/kristina Poetzl.jpeg" mode="aspectFit" class="img"></image>
+            <image src="http://charitybasar.cn/wp-content/uploads/2022/10/kristinaP-e1694492963801.jpg" mode="aspectFit" class="img"></image>
             <text>Kristina Poetzl</text>
             <text class="email">management@charitybasar.cn</text>
           </view>
           <view class="container-img">
             <text>Managemen†</text>
-            <image src="/images/profile/Emilia Jakobi.jpg" mode="aspectFit" class="img"></image>
+            <image src="http://charitybasar.cn/wp-content/uploads/2023/09/d0a1db7a4276a9357ace183b68a3eff0-e1694493135392.jpg" mode="aspectFit" class="img"></image>
             <text>Emilia Jakobi</text>
             <text class="email">management@charitybasar.cn</text>
           </view>
           <view class="container-img">
             <text>Managemen†</text>
             <text class="extra-text">(supportive)</text>
-            <image src="/images/profile/Nadine Pomes.jpg" mode="aspectFit" class="img extra-img"></image>
+            <image src="http://charitybasar.cn/wp-content/uploads/2022/10/Nadine-e1694493321872.jpg" mode="aspectFit" class="img extra-img"></image>
             <text>Nadine Pomes</text>
             <text class="email">management@charitybasar.cn</text>
           </view>
@@ -34,7 +34,7 @@
               Christmas 
               Angel
             </text>
-            <image src="/images/profile/Anja Bruggemann.jpg" mode="aspectFit" class="img"></image>
+            <image src="http://charitybasar.cn/wp-content/uploads/2022/10/AnjaB-e1694495571946.jpg" mode="aspectFit" class="img"></image>
             <text>Anja Brüggemann</text>
             <text class="email">weihnachtsengel@charitybasar.cn</text>
           </view>
@@ -43,19 +43,19 @@
               Christmas 
               Angel
             </text>
-            <image src="/images/profile/Marie Pickart.jpg" mode="aspectFit" class="img"></image>
+            <image src="http://charitybasar.cn/wp-content/uploads/2022/10/MarieP-e1694495686672.jpg" mode="aspectFit" class="img"></image>
             <text >Marie Pickart</text>
             <text class="email">weihnachtsengel@charitybasar.cn</text>
           </view>
           <view class="container-img">
             <text class="extra-text2">Communication</text>
-            <image src="/images/profile/Maria Tilgner.jpg" mode="aspectFit" class="img"></image>
+            <image src="http://charitybasar.cn/wp-content/uploads/2023/04/maria_t-e1694493552535.jpg" mode="aspectFit" class="img"></image>
             <text>Maria Tilgner</text>
             <text class="email">contact@charitybasar.cn</text>
           </view>
           <view class="container-img">
             <text class="extra-text2">Communication</text>
-            <image src="/images/profile/Anika Quintus.jpg" mode="aspectFit" class="img"></image>
+            <image src="http://charitybasar.cn/wp-content/uploads/2023/05/anika-1-e1694493734990.jpg" mode="aspectFit" class="img"></image>
             <text>Anika Quintus</text>
             <text class="email">contactt@charitybasar.cn</text>
           </view>
@@ -63,25 +63,25 @@
     <view class="page-section"> 
           <view class="container-img">
             <text class="">Raffles</text>
-            <image src="/images/profile/Tina Ritter.jpg" mode="aspectFit" class="img"></image>
+            <image src="http://charitybasar.cn/wp-content/uploads/2022/10/Tina_Ritter-e1694501047897.jpg" mode="aspectFit" class="img"></image>
             <text>Tina Ritter</text>
             <text class="email">raffles@charitybasar.cn</text>
           </view>
           <view class="container-img">
             <text class="">Raffles</text>
-            <image src="/images/profile/Christian Ritter.jpg" mode="aspectFit" class="img"></image>
+            <image src="http://charitybasar.cn/wp-content/uploads/2023/02/ChrisRitter-e1694501128770.jpg" mode="aspectFit" class="img"></image>
             <text >Christian Ritter</text>
             <text class="email">raffles@charitybasar.cn</text>
           </view>
           <view class="container-img">
             <text class="">Coffee house</text>
-            <image src="/images/profile/Jasmin Nonnenmacher.jpg" mode="aspectFit" class="img"></image>
+            <image src="http://charitybasar.cn/wp-content/uploads/2023/09/jasmin_n-e1694501578553.jpg" mode="aspectFit" class="img"></image>
             <text>Jasmin Nonnenmacher</text>
             <text class="email">kaffeehaus@charitybasar.cn</text>
           </view>
           <view class="container-img">
             <text class="">Communication</text>
-            <image src="/images/profile/Anne loffler.jpeg" mode="aspectFit" class="img"></image>
+            <image src="http://charitybasar.cn/wp-content/uploads/2023/05/anne-e1694501683144.jpeg" mode="aspectFit" class="img"></image>
             <text>Anne Löffler</text>
             <text class="email">kaffeehaus@charitybasar.cn</text>
           </view>
@@ -89,95 +89,95 @@
     <view class="page-section"> 
           <view class="container-img">
             <text class="">Finance</text>
-            <image src="/images/profile/Birgit Suelflow.jpg" mode="aspectFit" class="img"></image>
+            <image src="http://charitybasar.cn/wp-content/uploads/2022/10/Birgit_Suelflow-e1694496779342.jpg" mode="aspectFit" class="img"></image>
             <text>Birgit Suelflow</text>
             <text class="email">finance@charitybasar.cn</text>
           </view>
           <view class="container-img">
             <text class="">Finance</text>
-            <image src="/images/profile/Alexandra Katzenbach.jpg" mode="aspectFit" class="img"></image>
+            <image src="http://charitybasar.cn/wp-content/uploads/2023/09/72f60fb158771ee6418979390bec9bb1-e1694500326212.jpg" mode="aspectFit" class="img"></image>
             <text >Alexandra Katzenbach</text>
             <text class="email">finance@charitybasar.cn</text>
           </view>
           <view class="container-img">
             <text class="">Sponsoring</text>
-            <image src="/images/profile/Katharina Schmalz.jpg" mode="aspectFit" class="img"></image>
+            <image src="http://charitybasar.cn/wp-content/uploads/2023/05/Katharina-e1694497208546.jpg" mode="aspectFit" class="img"></image>
             <text>Katharina Schmalz</text>
             <text class="email">sponsoring@charitybasar.cn</text>
           </view>
           <view class="container-img">
             <text class="">Sponsoring</text>
-            <image src="/images/profile/Karin Merz.jpeg" mode="aspectFit" class="img"></image>
-            <text>Katharina Schmalz</text>
+            <image src="http://charitybasar.cn/wp-content/uploads/2023/05/karin-e1694494545416.jpeg" mode="aspectFit" class="img"></image>
+            <text>Karin Merz</text>
             <text class="email">sponsoring@charitybasar.cn</text>
           </view>
     </view>
     <view class="page-section"> 
           <view class="container-img">
             <text class="">Website/IT</text>
-            <image src="/images/profile/Linni Boewer.jpg" mode="aspectFit" class="img"></image>
+            <image src="http://charitybasar.cn/wp-content/uploads/2023/04/linni3-e1694497478123.jpg" mode="aspectFit" class="img"></image>
             <text>Linni Boewer</text>
           </view>
           <view class="container-img">
             <text class="">Website</text>
-            <image src="/images/profile/Mai Nguyen.jpg" mode="aspectFit" class="img"></image>
-            <text >Mai Nguyen</text>
+            <image src="http://charitybasar.cn/wp-content/uploads/2023/09/IMG_5467-scaled-e1694497596156.jpg" mode="aspectFit" class="img"></image>
+            <text>Mai Nguyen</text>
           </view>
           <view class="container-img">
             <text class="">Website</text>
-            <image src="/images/profile/Felix Hohne.jpg" mode="aspectFit" class="img"></image>
+            <image src="http://charitybasar.cn/wp-content/uploads/2023/09/00a9b92b8022f8cac7c1db0743c51943-e1694495531793.jpg" mode="aspectFit" class="img"></image>
             <text>Felix Höhne</text>
           </view>
           <view class="container-img">
             <text class="">Graphic design</text>
-            <image src="/images/profile/Verena Sauer.jpg" mode="aspectFit" class="img"></image>
+            <image src="http://charitybasar.cn/wp-content/uploads/2023/09/2844bb478c4d0a33e835a4d33627e71b-e1694497839280.jpg" mode="aspectFit" class="img"></image>
             <text>Verena Sauer</text>
           </view>
     </view>
     <view class="page-section"> 
           <view class="container-img">
             <text class="">Photo booth</text>
-            <image src="/images/profile/Virginia Ventura.jpeg" mode="aspectFit" class="img"></image>
+            <image src="http://charitybasar.cn/wp-content/uploads/2023/05/virgini-e1694499666304.jpeg" mode="aspectFit" class="img"></image>
             <text>Virginia Ventura</text>
           </view>
           <view class="container-img">
             <text class="">Photo booth</text>
-            <image src="/images/profile/Davide Ventura.jpg" mode="aspectFit" class="img"></image>
+            <image src="http://charitybasar.cn/wp-content/uploads/2023/10/81038e925e616c55c13fe5f36fde0e78-e1698591475472.jpg" mode="aspectFit" class="img"></image>
             <text >Davide Ventura</text>
           </view>
           <view class="container-img">
             <text class="">Cookies & Jam</text>
-            <image src="/images/profile/Sabrina Schmitt.jpg" mode="aspectFit" class="img"></image>
+            <image src="http://charitybasar.cn/wp-content/uploads/2023/05/sabrina_basar-e1694499975436.jpg" mode="aspectFit" class="img"></image>
             <text>Sabrina Schmitt</text>
           </view>
           <view class="container-img">
             <text class="">Cookies & Jam</text>
-            <image src="/images/profile/Monika Lingmann.jpg" mode="aspectFit" class="img"></image>
+            <image src="http://charitybasar.cn/wp-content/uploads/2023/05/Moni-e1694500159207.jpg" mode="aspectFit" class="img"></image>
             <text>Monika Lingmann</text>
           </view>
     </view>
     <view class="page-section"> 
           <view class="container-img">
             <text class="">Charity</text>
-            <image src="/images/profile/Cher J. Sun.jpg" mode="aspectFit" class="img"></image>
+            <image src="http://charitybasar.cn/wp-content/uploads/2023/05/C-jay-e1694500511570.jpg" mode="aspectFit" class="img"></image>
             <text>Cher J. Sun</text>
             <text class="email">charity@charitybasar.cn</text>
           </view>
           <view class="container-img">
             <text class="">Charity</text>
-            <image src="/images/profile/Yu (Liane) Liu.jpg" mode="aspectFit" class="img"></image>
+            <image src="http://charitybasar.cn/wp-content/uploads/2023/09/f617912e2e7d77319ec4ec94c1f5f097-e1694500621310.jpg" mode="aspectFit" class="img"></image>
             <text>Yu (Liane) Liu</text>
             <text class="email">charity@charitybasar.cn</text>
           </view>
           <view class="container-img">
             <text class="">Santa</text>
-            <image src="/images/profile/Thomas Spatz.jpg" mode="aspectFit" class="img"></image>
+            <image src="http://charitybasar.cn/wp-content/uploads/2022/10/ThomasS-e1694501986456.jpg" mode="aspectFit" class="img"></image>
             <text>Thomas Spatz</text>
             <text class="email">santa@charitybasar.cn</text>
           </view>
           <view class="container-img">
             <text class="">Santa</text>
-            <image src="/images/profile/Robert Pomes.jpg" mode="aspectFit" class="img"></image>
+            <image src="http://charitybasar.cn/wp-content/uploads/2023/09/42ef468a6c36a87680fbbf29d1d4a74e-e1694836371206.jpg" mode="aspectFit" class="img"></image>
             <text>Robert Pomes</text>
             <text class="email">santa@charitybasar.cn</text>
           </view>
@@ -185,39 +185,39 @@
     <view class="page-section"> 
           <view class="container-img">
             <text class="">Sekthütte</text>
-            <image src="/images/profile/Nina Pia Conrad.jpg" mode="aspectFit" class="img"></image>
+            <image src="http://charitybasar.cn/wp-content/uploads/2023/09/Nina-Pia-e1694959620110.jpg" mode="aspectFit" class="img"></image>
             <text>Nina Pia Conrad</text>
           </view>
           <view class="container-img">
             <text class="">Sekthütte</text>
-            <image src="/images/profile/El-mar Bengel.jpg" mode="aspectFit" class="img"></image>
+            <image src="http://charitybasar.cn/wp-content/uploads/2023/09/Elmar-e1694503398947.jpg" mode="aspectFit" class="img"></image>
             <text >El-mar Bengel</text>
           </view>
           <view class="container-img">
             <text class="">Press</text>
-            <image src="/images/profile/Cher J. Sun.jpg" mode="aspectFit" class="img"></image>
+            <image src="http://charitybasar.cn/wp-content/uploads/2023/05/C-jay-e1694500511570.jpg" mode="aspectFit" class="img"></image>
             <text>Cher J. Sun</text>
           </view>
           <view class="container-img">
             <text class="">Press</text>
-            <image src="/images/profile/Anke Redl.jpeg" mode="aspectFit" class="img"></image>
+            <image src="http://charitybasar.cn/wp-content/uploads/2022/10/Anke_Redl.jpg" mode="aspectFit" class="img"></image>
             <text>Anke Redl</text>
           </view>
     </view>
     <view class="page-section"> 
           <view class="container-img">
             <text class="">Facility</text>
-            <image src="/images/profile/Ralf Abendroth.jpeg" mode="aspectFit" class="img"></image>
+            <image src="http://charitybasar.cn/wp-content/uploads/2022/10/Anke_Redl.jpg" mode="aspectFit" class="img"></image>
             <text>Ralf Abendroth</text>
           </view>
           <view class="container-img">
             <text class="">Facility</text>
-            <image src="/images/profile/Desmond.jpg" mode="aspectFit" class="img"></image>
+            <image src="http://charitybasar.cn/wp-content/uploads/2023/10/desmond-e1697429040117.jpg" mode="aspectFit" class="img"></image>
             <text>Desmond</text>
           </view>
           <view class="container-img">
             <text class="">Facility</text>
-            <image src="/images/profile/Thomas Spatz.jpg" mode="aspectFit" class="img"></image>
+            <image src="http://charitybasar.cn/wp-content/uploads/2022/10/ThomasS-e1694501986456.jpg" mode="aspectFit" class="img"></image>
             <text>Thomas Spatz</text>
           </view>
           <view class="container-img">
@@ -225,7 +225,7 @@
             Communication 
             Church & School
             </text>
-            <image src="/images/profile/Claudia Potthoff.jpg" mode="aspectFit" class="img extra-img"></image>
+            <image src="http://charitybasar.cn/wp-content/uploads/2023/09/Claudia-Potthoff-e1694529484748.jpg" mode="aspectFit" class="img extra-img"></image>
             <text>Claudia Potthoff</text>
           </view>
     </view>

@@ -13,6 +13,6 @@
 
 .container {
   padding: 40rpx;
-  height: 135vh;
+  height: auto;
   padding-bottom: 40rpx;
 }

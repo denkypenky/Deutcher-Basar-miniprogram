@@ -8,10 +8,10 @@
 .bottom-text{
   margin-top: 40rpx;
 }
-.yellow-text {
-  color: #FDC01C;
-  margin-bottom: 360rpx;
-}
 .container {
   height: 100vh;
+}
+.btn {
+  margin-top: 40rpx;
+  font-size: 35rpx;
 }

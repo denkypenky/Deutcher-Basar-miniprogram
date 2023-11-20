@@ -1,11 +1,33 @@
 // pages/Charities/show.js
 const app = getApp()
 Page({
+  onShareAppMessage() {
+    return {
+      title: 'swiper',
+      path: 'page/component/pages/swiper/swiper'
+    }
+  },
 
   /**
    * Page initial data
    */
   data: {
+    indicatorDots: true,
+    indicatorActiveColor: "#FDC01C",
+    vertical: false,
+    autoplay: true,
+    interval: 3000,
+    duration: 500,
+    previousMargin: 0,
+    nextMargin: 0,
+    charititesImage: [
+      { url: 'http://charitybasar.cn/wp-content/uploads/2023/11/12a5a8b185daf14157738518fb0b625e-scaled.jpeg' },
+      { url: 'http://charitybasar.cn/wp-content/uploads/2023/11/f0c16d0e0c0eaa7729fa34dba19cccf0-scaled.jpeg' },
+      { url: 'http://charitybasar.cn/wp-content/uploads/2023/11/76cb8d518b5cb042e1e1bfc216e71f6f.jpeg' },
+      { url: 'http://charitybasar.cn/wp-content/uploads/2023/11/7e2a6eb2f8d8572b640346dd0da73f4c-scaled.jpeg' },
+      { url: 'http://charitybasar.cn/wp-content/uploads/2023/11/cfc5e4a71e70c976005b10991472adb2-scaled.jpeg' },
+      { url: 'http://charitybasar.cn/wp-content/uploads/2023/11/2dbe2efeae8f412035781e3bb9e94284-scaled.jpeg' },
+    ],
 
   },
 
@@ -19,52 +41,42 @@ Page({
     })
   },
 
-  /**
-   * Lifecycle function--Called when page is initially rendered
-   */
-  onReady() {
-
+  changeProperty: function (e) {
+    var propertyName = e.currentTarget.dataset.propertyName
+    var newData = {}
+    newData[propertyName] = e.detail.value
+    this.setData(newData)
+    console.log(this.changeProperty)
   },
-
-  /**
-   * Lifecycle function--Called when page show
-   */
-  onShow() {
-
+  changeIndicatorDots: function (e) {
+    this.setData({
+      indicatorDots: !this.data.indicatorDots
+    })
   },
-
-  /**
-   * Lifecycle function--Called when page hide
-   */
-  onHide() {
-
+  changeAutoplay: function (e) {
+    this.setData({
+      autoplay: !this.data.autoplay
+    })
   },
-
-  /**
-   * Lifecycle function--Called when page unload
-   */
-  onUnload() {
-
+  intervalChange: function (e) {
+    this.setData({
+      interval: e.detail.value
+    })
   },
-
-  /**
-   * Page event handler function--Called when user drop down
-   */
-  onPullDownRefresh() {
-
+  durationChange: function (e) {
+    this.setData({
+      duration: e.detail.value
+    })
   },
-
-  /**
-   * Called when page reach bottom
-   */
-  onReachBottom() {
-
+  onShareAppMessage(e) {
+    return {
+      title: "Deutscher Charity Weihnachtbasar",
+      path: "/pages/landing/landing.wxml"
+    }
   },
-
-  /**
-   * Called when user click on the top right corner to share
-   */
-  onShareAppMessage() {
-
+  onShareTimeline() {
+    return {
+      title: "Deutscher Charity Weihnachtbasar"
+    }
   }
 })

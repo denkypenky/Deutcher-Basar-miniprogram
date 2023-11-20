@@ -1,5 +1,10 @@
 <!--pages/Gallery/gallery.wxml-->
 <CustomNav2 />
-<image class="tree" src="{{profileImg}}" mode="heightFix"></image>
 <view class="container">
+  <text class="title">Impressions from previous years</text>
+  <block wx:for="{{galleryList}}" wx:key="index">
+          <image-item>
+            <image src="{{item.url}}" mode="aspectFit"></image>
+          </image-item>
+        </block>
 </view>

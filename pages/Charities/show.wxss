@@ -29,3 +29,22 @@
   color: #0B3731;
   background-color: #f3f7f6;
 }
+.image1 {
+  margin-top: 50rpx;
+  margin-left: 210rpx;
+}
+swiper{
+  width: 1000rpx;
+  height: 600rpx;
+  
+}
+.image-swiper {
+ 
+  background-color: rgb(255, 255, 255);
+
+}
+.wx-swiper-dot {
+  width: 11rpx !important;
+  height: 11rpx !important;
+  border-radius: 50% !important;
+}
